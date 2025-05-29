@@ -1,0 +1,312 @@
+{
+  "id": "a71209a3-0aca-4357-962a-c43b6c04f84b",
+  "name": "Bathrooms_idx_12",
+  "description": "",
+  "simulationType": "Hybrid",
+  "impulseLengthSec": 0.38029010300912347,
+  "crossoverFrequency": 710,
+  "modelDefinitionId": "e531c5a5-35f0-4bf8-87b5-dac6923f3f60",
+  "originalGeometryLibraryId": null,
+  "gpuAllocationStrategy": "UtilizationOptimized",
+  "onTaskError": "Ignore",
+  "receivers": [
+    {
+      "id": "6d79a0a4-78a7-4cea-be3c-470a199a799a",
+      "receiverType": "Mono",
+      "label": "rec_0",
+      "x": -1.9087,
+      "y": 4.1527,
+      "z": 1.5695,
+      "orderNumber": 0
+    },
+    {
+      "id": "9ad61895-61e8-4218-a0e9-ae3eaf2bf2e6",
+      "receiverType": "Mono",
+      "label": "rec_1",
+      "x": -2.5465,
+      "y": 4.6936,
+      "z": 0.4845,
+      "orderNumber": 1
+    },
+    {
+      "id": "07809dfe-dd32-48ff-9ebf-ed93c1b49832",
+      "receiverType": "Mono",
+      "label": "rec_2",
+      "x": -2.6632,
+      "y": 4.2879,
+      "z": 1.3164,
+      "orderNumber": 2
+    },
+    {
+      "id": "d70ae645-c24d-48cf-bedd-5de44f411161",
+      "receiverType": "Mono",
+      "label": "rec_3",
+      "x": -3.3684,
+      "y": 4.1199,
+      "z": 1.4813,
+      "orderNumber": 3
+    },
+    {
+      "id": "96975bff-c84b-4c77-9313-dae86a701f66",
+      "receiverType": "Mono",
+      "label": "rec_4",
+      "x": -2.0233,
+      "y": 4.3772,
+      "z": 0.3327,
+      "orderNumber": 4
+    },
+    {
+      "id": "5a2c4077-60c9-4424-89a1-e83ce589002f",
+      "receiverType": "Mono",
+      "label": "rec_5",
+      "x": -3.3059,
+      "y": 4.201,
+      "z": 1.9799,
+      "orderNumber": 5
+    },
+    {
+      "id": "46029776-f3f5-437d-b235-4b64ac4e7b8a",
+      "receiverType": "Mono",
+      "label": "rec_6",
+      "x": -3.2491,
+      "y": 4.3086,
+      "z": 0.6749,
+      "orderNumber": 6
+    },
+    {
+      "id": "50dbac44-57e3-4a2b-beff-bb44946fd50d",
+      "receiverType": "Mono",
+      "label": "rec_7",
+      "x": -2.075,
+      "y": 5.2082,
+      "z": 2.6987,
+      "orderNumber": 7
+    },
+    {
+      "id": "0fa139b7-96b3-4b51-884f-a08300610107",
+      "receiverType": "Mono",
+      "label": "rec_8",
+      "x": -2.7973,
+      "y": 4.2367,
+      "z": 2.3252,
+      "orderNumber": 8
+    },
+    {
+      "id": "7fbb5a2e-10c0-40f5-a1be-7e4bb6c488a7",
+      "receiverType": "Mono",
+      "label": "rec_9",
+      "x": -2.8045,
+      "y": 5.2499,
+      "z": 2.2439,
+      "orderNumber": 9
+    },
+    {
+      "id": "45a3aef2-3384-47e1-bf7d-6321015985eb",
+      "receiverType": "Mono",
+      "label": "rec_10",
+      "x": -2.8326,
+      "y": 4.1677,
+      "z": 1.7726,
+      "orderNumber": 10
+    },
+    {
+      "id": "4c9c0a6c-a105-4ec6-a062-3bfddaca6702",
+      "receiverType": "Mono",
+      "label": "rec_11",
+      "x": -1.9424,
+      "y": 4.0965,
+      "z": 2.4503,
+      "orderNumber": 11
+    },
+    {
+      "id": "b283de8b-d40a-46b2-973e-c4bd3ba15469",
+      "receiverType": "Mono",
+      "label": "rec_12",
+      "x": -2.3389,
+      "y": 4.117,
+      "z": 2.7838,
+      "orderNumber": 12
+    },
+    {
+      "id": "91e4c461-de11-421d-8312-c2c7a8177bda",
+      "receiverType": "Mono",
+      "label": "rec_13",
+      "x": -3.1702,
+      "y": 4.1117,
+      "z": 2.7573,
+      "orderNumber": 13
+    }
+  ],
+  "sources": [
+    {
+      "id": "e56e634e-4f79-4524-a32d-bbf219ecabbe",
+      "sourceType": "Omni",
+      "label": "Source_0",
+      "x": -2.2563,
+      "y": 4.9946,
+      "z": 2.0182,
+      "orderNumber": 0,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "5794fc66-e17b-48bb-b03e-812f8b2f980f",
+      "sourceType": "Omni",
+      "label": "Source_1",
+      "x": -2.2369,
+      "y": 4.6387,
+      "z": 2.4447,
+      "orderNumber": 1,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "3a698e78-20dc-48c0-8932-0ca75321e48c",
+      "sourceType": "Omni",
+      "label": "Source_2",
+      "x": -2.2085,
+      "y": 4.4633,
+      "z": 1.8568,
+      "orderNumber": 2,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "8e0a44fd-29fa-471e-abad-e7bf519f94b0",
+      "sourceType": "Omni",
+      "label": "Source_3",
+      "x": -2.1973,
+      "y": 4.8526,
+      "z": 1.289,
+      "orderNumber": 3,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "02ae7a04-5601-4634-917c-16da1d979730",
+      "sourceType": "Omni",
+      "label": "Source_4",
+      "x": -3.0525,
+      "y": 4.8823,
+      "z": 2.5214,
+      "orderNumber": 4,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "60900623-376f-458d-b7cf-db65addcec6f",
+      "sourceType": "Omni",
+      "label": "Source_5",
+      "x": -2.109,
+      "y": 4.308,
+      "z": 0.9079,
+      "orderNumber": 5,
+      "tasks": [],
+      "sourceProperties": null
+    }
+  ],
+  "layerMaterialAssignments": [
+    {
+      "materialId": "0c04d8a1-c55b-4241-a289-ff10c8cabb8d",
+      "materialName": "13 mm Gypsum/Plaster board on frame, 100 mm mineral wool behind",
+      "layerId": "4185379d-63db-4b29-945c-aa080ac27a6f",
+      "layerName": "InteriorWall",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "b74a5b88-52a5-4b20-970b-ca82ea9c924d",
+      "materialName": "Acoustic door",
+      "layerId": "c2fbb952-650b-44c6-9794-39693ec6dabd",
+      "layerName": "InteriorDoors",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "4a29e511-310f-4c5c-b86d-8102354b6ce3",
+      "materialName": "Stage floor",
+      "layerId": "d546b874-4610-44f9-aa78-6a6caad42dd0",
+      "layerName": "InteriorDoorPosts",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "40a2ffba-c266-48dc-bf57-1eeb57b0966a",
+      "materialName": "Concrete block, painted",
+      "layerId": "adab8577-0880-42d6-9bef-54191a415d67",
+      "layerName": "Furniture/Shower",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "bc54da5a-2d2d-48a5-8aa4-99504384fbfa",
+      "materialName": "Terrazzo slabs",
+      "layerId": "7c95970d-c0a6-4812-9d8b-266a5062f595",
+      "layerName": "Furniture/Basin",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "3bd70a0e-6ac8-40df-8b46-cafc84b35a7c",
+      "materialName": "Wool pile on concrete",
+      "layerId": "08b42546-5e0b-4d8f-bf94-99f90f6212dd",
+      "layerName": "Floor",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "b5a5ebe5-2413-44e4-9476-6b5835980d38",
+      "materialName": "10 mm Gypsum/Plaster board on frame, 100 mm mineral wool behind",
+      "layerId": "867d093c-133b-4776-bbfb-62e3bf64709e",
+      "layerName": "Ceiling",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "d5ee892a-637b-41c2-8c45-2b1779e63f49",
+      "materialName": "Acoustic plaster 40 mm thick",
+      "layerId": "a7f4f8e9-238c-4d5a-be80-c3fe052592bb",
+      "layerName": "ApartmentWall",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    }
+  ],
+  "localMeshSizing": [],
+  "simulationSettings": {
+    "speedOfSound": 343,
+    "gaSettings": {
+      "numberOfRays": 5000,
+      "ISMOrder": 4,
+      "IsAirAbsorptionActive": true,
+      "ISMRayCount": 50000,
+      "WriteOutISMRayPaths": false,
+      "useEmbree": false,
+      "method": 0
+    },
+    "dgSettings": {
+      "polynomialOrder": 4,
+      "disableBcOptimizations": null,
+      "dumpRawIrs": null,
+      "skipPostprocessing": null
+    }
+  },
+  "energyDecayThreshold": 60,
+  "resultStatus": {
+    "result_code": 0,
+    "result_code_name": "Ok",
+    "message": null
+  },
+  "mesherSettings": null,
+  "createdAt": "2024-10-24T07:22:56.416092Z",
+  "updatedAt": "2024-10-24T12:21:13.569276Z",
+  "status": "Completed",
+  "project_id": "599028f6-e654-4cb9-b98c-c6fd35c5e510"
+}

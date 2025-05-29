@@ -1,0 +1,2193 @@
+{
+  "id": "61a15139-3831-429d-85ad-9dc0bbcc7507",
+  "name": "Apartments_idx_13",
+  "description": "",
+  "simulationType": "Hybrid",
+  "impulseLengthSec": 0.9412526867728415,
+  "crossoverFrequency": 710,
+  "modelDefinitionId": "35ecdb16-e3bb-4ebb-bb09-6a8b83929101",
+  "originalGeometryLibraryId": null,
+  "gpuAllocationStrategy": "UtilizationOptimized",
+  "onTaskError": "Ignore",
+  "receivers": [
+    {
+      "id": "8c34c4b4-5db4-4821-86e7-05d084180a02",
+      "receiverType": "Mono",
+      "label": "rec_0",
+      "x": -2.1941,
+      "y": -0.5445,
+      "z": 0.3824,
+      "orderNumber": 0
+    },
+    {
+      "id": "9a0a43f9-c9fa-415e-8c0d-778889ec1ca8",
+      "receiverType": "Mono",
+      "label": "rec_1",
+      "x": 1.6377,
+      "y": -0.3619,
+      "z": 1.2389,
+      "orderNumber": 1
+    },
+    {
+      "id": "eeb1c663-8e73-4dfd-be18-728eb0ec566a",
+      "receiverType": "Mono",
+      "label": "rec_2",
+      "x": -1.5055,
+      "y": -2.2503,
+      "z": 0.8355,
+      "orderNumber": 2
+    },
+    {
+      "id": "7a595fba-03e8-4048-bc2a-07a0aded3875",
+      "receiverType": "Mono",
+      "label": "rec_3",
+      "x": -2.7511,
+      "y": -1.9843,
+      "z": 1.4618,
+      "orderNumber": 3
+    },
+    {
+      "id": "94c63f5b-f542-4195-bdc0-0d5f9e3d20a8",
+      "receiverType": "Mono",
+      "label": "rec_4",
+      "x": -1.9698,
+      "y": -2.5637,
+      "z": 0.2688,
+      "orderNumber": 4
+    },
+    {
+      "id": "809d994c-1708-47d2-be00-0732799fdfae",
+      "receiverType": "Mono",
+      "label": "rec_5",
+      "x": -1.3147,
+      "y": -3.0776,
+      "z": 1.3909,
+      "orderNumber": 5
+    },
+    {
+      "id": "9f36a163-b6ed-48e3-8f92-bda80f1719ae",
+      "receiverType": "Mono",
+      "label": "rec_6",
+      "x": 1.1036,
+      "y": 0.4102,
+      "z": 1.4131,
+      "orderNumber": 6
+    },
+    {
+      "id": "79632b8e-79ba-40e1-bc37-34f960058d3c",
+      "receiverType": "Mono",
+      "label": "rec_7",
+      "x": -1.8114,
+      "y": 0.0102,
+      "z": 2.253,
+      "orderNumber": 7
+    },
+    {
+      "id": "a995394b-86c2-41c4-8845-e024ca9db19a",
+      "receiverType": "Mono",
+      "label": "rec_8",
+      "x": -0.5918,
+      "y": 2.687,
+      "z": 1.9423,
+      "orderNumber": 8
+    },
+    {
+      "id": "4754cc1a-4e59-4aaf-b725-ba780422abfe",
+      "receiverType": "Mono",
+      "label": "rec_9",
+      "x": -0.7142,
+      "y": -0.4368,
+      "z": 1.3768,
+      "orderNumber": 9
+    },
+    {
+      "id": "fbebd237-4d82-4f5a-b3f6-e9eafa44f5aa",
+      "receiverType": "Mono",
+      "label": "rec_10",
+      "x": 1.3779,
+      "y": -0.0998,
+      "z": 0.2747,
+      "orderNumber": 10
+    },
+    {
+      "id": "c6083ed4-8cb1-44f6-a46e-b8403e81f024",
+      "receiverType": "Mono",
+      "label": "rec_11",
+      "x": -0.9985,
+      "y": -0.6369,
+      "z": 0.4895,
+      "orderNumber": 11
+    },
+    {
+      "id": "076c63ad-68a5-47c7-8873-dc4cd2918cd8",
+      "receiverType": "Mono",
+      "label": "rec_12",
+      "x": -1.3451,
+      "y": -1.859,
+      "z": 2.3524,
+      "orderNumber": 12
+    },
+    {
+      "id": "bb38f294-fd07-44c1-99d2-db526672c61d",
+      "receiverType": "Mono",
+      "label": "rec_13",
+      "x": -1.7297,
+      "y": 1.1063,
+      "z": 2.3132,
+      "orderNumber": 13
+    },
+    {
+      "id": "b028dc9b-8759-43c6-af31-ff70af365e50",
+      "receiverType": "Mono",
+      "label": "rec_14",
+      "x": -2.5033,
+      "y": 2.3766,
+      "z": 0.4537,
+      "orderNumber": 14
+    },
+    {
+      "id": "790e6dea-b137-4cbc-959e-9dd543215e89",
+      "receiverType": "Mono",
+      "label": "rec_15",
+      "x": -2.7921,
+      "y": 0.7843,
+      "z": 1.9486,
+      "orderNumber": 15
+    },
+    {
+      "id": "f55c3841-005b-4f8d-8b69-b4c496acbc12",
+      "receiverType": "Mono",
+      "label": "rec_16",
+      "x": -2.845,
+      "y": 0.1347,
+      "z": 1.4628,
+      "orderNumber": 16
+    },
+    {
+      "id": "23141a90-0f9a-420e-9993-4c2276d594c8",
+      "receiverType": "Mono",
+      "label": "rec_17",
+      "x": 1.481,
+      "y": -0.6501,
+      "z": 0.5237,
+      "orderNumber": 17
+    },
+    {
+      "id": "7112319c-af70-4915-b135-fc0c97d9e1fa",
+      "receiverType": "Mono",
+      "label": "rec_18",
+      "x": -1.4628,
+      "y": 1.7713,
+      "z": 1.2531,
+      "orderNumber": 18
+    },
+    {
+      "id": "cb587fc6-b0cb-4129-bf22-a44b4ed4dd89",
+      "receiverType": "Mono",
+      "label": "rec_19",
+      "x": -0.8,
+      "y": -1.0082,
+      "z": 2.1119,
+      "orderNumber": 19
+    },
+    {
+      "id": "3a315b2a-7c73-4df0-9e37-bc392998fafb",
+      "receiverType": "Mono",
+      "label": "rec_20",
+      "x": -2.0162,
+      "y": -2.9713,
+      "z": 0.6433,
+      "orderNumber": 20
+    },
+    {
+      "id": "559d3bdf-a89c-4e19-9fce-832203f8fd07",
+      "receiverType": "Mono",
+      "label": "rec_21",
+      "x": -2.7806,
+      "y": -0.7237,
+      "z": 1.1633,
+      "orderNumber": 21
+    },
+    {
+      "id": "f0198f43-cab8-4e03-879e-596d279c145a",
+      "receiverType": "Mono",
+      "label": "rec_22",
+      "x": -0.5643,
+      "y": 0.8096,
+      "z": 2.3891,
+      "orderNumber": 22
+    },
+    {
+      "id": "41b07f7c-107f-4caa-a451-b12bb27589a2",
+      "receiverType": "Mono",
+      "label": "rec_23",
+      "x": 2.5953,
+      "y": 0.1154,
+      "z": 0.7999,
+      "orderNumber": 23
+    },
+    {
+      "id": "93db4e16-deb7-49c2-90da-06996f1a6e81",
+      "receiverType": "Mono",
+      "label": "rec_24",
+      "x": -0.3508,
+      "y": 2.317,
+      "z": 2.3531,
+      "orderNumber": 24
+    },
+    {
+      "id": "0ae2f548-a0f4-4b27-9e3d-2ef5b722f743",
+      "receiverType": "Mono",
+      "label": "rec_25",
+      "x": -1.1508,
+      "y": -1.9134,
+      "z": 1.0303,
+      "orderNumber": 25
+    },
+    {
+      "id": "46c1fb56-2b70-4a34-adde-e6d2e0d4ef8d",
+      "receiverType": "Mono",
+      "label": "rec_26",
+      "x": -2.4907,
+      "y": -2.3818,
+      "z": 1.622,
+      "orderNumber": 26
+    },
+    {
+      "id": "cc72013e-51bf-4555-ba94-62b7dc946030",
+      "receiverType": "Mono",
+      "label": "rec_27",
+      "x": 2.2804,
+      "y": 1.138,
+      "z": 2.33,
+      "orderNumber": 27
+    },
+    {
+      "id": "2f271248-ad16-4fee-a7e1-e3f56c212a93",
+      "receiverType": "Mono",
+      "label": "rec_28",
+      "x": -2.6679,
+      "y": -0.1889,
+      "z": 1.8635,
+      "orderNumber": 28
+    },
+    {
+      "id": "d6e1ed75-6fa3-4198-83f6-c5a3485096d3",
+      "receiverType": "Mono",
+      "label": "rec_29",
+      "x": -1.0646,
+      "y": -2.5687,
+      "z": 1.9452,
+      "orderNumber": 29
+    },
+    {
+      "id": "32d4596c-e1cd-4fa2-83e7-7606d1f8cb76",
+      "receiverType": "Mono",
+      "label": "rec_30",
+      "x": -1.101,
+      "y": -1.8442,
+      "z": 0.341,
+      "orderNumber": 30
+    },
+    {
+      "id": "ca117c9b-785e-4d02-923e-d749079e830d",
+      "receiverType": "Mono",
+      "label": "rec_31",
+      "x": -1.7524,
+      "y": 1.3936,
+      "z": 0.4535,
+      "orderNumber": 31
+    },
+    {
+      "id": "cebd5294-e878-4a0b-9aac-61c744cae3a7",
+      "receiverType": "Mono",
+      "label": "rec_32",
+      "x": 2.1696,
+      "y": -0.6986,
+      "z": 2.0932,
+      "orderNumber": 32
+    },
+    {
+      "id": "cd2bfed5-1e17-4ee6-aa62-bd69582cfe2d",
+      "receiverType": "Mono",
+      "label": "rec_33",
+      "x": -1.7066,
+      "y": -2.2074,
+      "z": 2.1032,
+      "orderNumber": 33
+    },
+    {
+      "id": "c9d7f2eb-e032-4930-a015-148b8fe93411",
+      "receiverType": "Mono",
+      "label": "rec_34",
+      "x": -2.3198,
+      "y": 0.8969,
+      "z": 2.3638,
+      "orderNumber": 34
+    },
+    {
+      "id": "f5fcf03a-4181-4cd9-ab33-31c2083d493d",
+      "receiverType": "Mono",
+      "label": "rec_35",
+      "x": -2.5629,
+      "y": -1.4269,
+      "z": 1.5397,
+      "orderNumber": 35
+    },
+    {
+      "id": "53fbf362-aa23-47b5-a22f-43fb95f22c81",
+      "receiverType": "Mono",
+      "label": "rec_36",
+      "x": -2.3307,
+      "y": 0.3284,
+      "z": 0.6026,
+      "orderNumber": 36
+    },
+    {
+      "id": "cc9dd589-554a-4dce-bb59-40101e69ce35",
+      "receiverType": "Mono",
+      "label": "rec_37",
+      "x": -2.645,
+      "y": -3.1223,
+      "z": 0.8931,
+      "orderNumber": 37
+    },
+    {
+      "id": "fd1b6ac4-d78a-4e10-aa5d-f3374ebd325c",
+      "receiverType": "Mono",
+      "label": "rec_38",
+      "x": 2.073,
+      "y": 0.0076,
+      "z": 1.1482,
+      "orderNumber": 38
+    },
+    {
+      "id": "28a933eb-615e-4218-bede-7d0cb4fb33e1",
+      "receiverType": "Mono",
+      "label": "rec_39",
+      "x": -2.8353,
+      "y": 1.6716,
+      "z": 1.736,
+      "orderNumber": 39
+    },
+    {
+      "id": "c188f0b4-5775-44a5-98d1-c770b651e55b",
+      "receiverType": "Mono",
+      "label": "rec_40",
+      "x": 1.2717,
+      "y": -0.852,
+      "z": 1.7303,
+      "orderNumber": 40
+    },
+    {
+      "id": "394db869-55b2-48ae-a2c0-8219b87e037a",
+      "receiverType": "Mono",
+      "label": "rec_41",
+      "x": -0.1114,
+      "y": 0.4169,
+      "z": 0.8263,
+      "orderNumber": 41
+    },
+    {
+      "id": "de83ece5-0c15-43eb-9495-1662b81c7d20",
+      "receiverType": "Mono",
+      "label": "rec_42",
+      "x": -2.3561,
+      "y": 0.7666,
+      "z": 0.2673,
+      "orderNumber": 42
+    },
+    {
+      "id": "d0a77c55-23b7-42d7-aab7-819370c466a4",
+      "receiverType": "Mono",
+      "label": "rec_43",
+      "x": -1.4419,
+      "y": -0.602,
+      "z": 2.2787,
+      "orderNumber": 43
+    },
+    {
+      "id": "631539f2-f493-46ad-8e29-096f923d2bed",
+      "receiverType": "Mono",
+      "label": "rec_44",
+      "x": 0.3222,
+      "y": 0.2054,
+      "z": 1.6638,
+      "orderNumber": 44
+    },
+    {
+      "id": "8a8c8978-cd0e-4ee8-9357-ca0cf2d8afe8",
+      "receiverType": "Mono",
+      "label": "rec_45",
+      "x": 0.8976,
+      "y": 0.5549,
+      "z": 2.2107,
+      "orderNumber": 45
+    },
+    {
+      "id": "4498e62b-6a9b-4b7b-991c-0e5f34d3daad",
+      "receiverType": "Mono",
+      "label": "rec_46",
+      "x": 0.4344,
+      "y": 0.0915,
+      "z": 1.1443,
+      "orderNumber": 46
+    },
+    {
+      "id": "283ab3b7-13b2-4f5a-8e13-d92055ebf2c2",
+      "receiverType": "Mono",
+      "label": "rec_47",
+      "x": -2.4495,
+      "y": 3.1321,
+      "z": 1.6126,
+      "orderNumber": 47
+    },
+    {
+      "id": "0e593a7e-2aba-4e3c-9dbb-7cc57280916b",
+      "receiverType": "Mono",
+      "label": "rec_48",
+      "x": -0.7242,
+      "y": -2.5822,
+      "z": 1.2602,
+      "orderNumber": 48
+    },
+    {
+      "id": "0ebd6a8f-bff5-4959-8e19-d2e67b9565d0",
+      "receiverType": "Mono",
+      "label": "rec_49",
+      "x": -1.2343,
+      "y": 1.311,
+      "z": 1.4122,
+      "orderNumber": 49
+    }
+  ],
+  "sources": [
+    {
+      "id": "1e1bc02d-ad7b-429b-8f08-04d46b059e04",
+      "tasks": [
+        {
+          "id": "798ea385-9b54-4f9a-ad42-ee948463e638",
+          "name": "DG_Source_0",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339902Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "81a0ec67-100d-4cb5-b5a8-2b8094a3f280",
+          "name": "GA_Source_0",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340565Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_0",
+      "x": -2.1769,
+      "y": 0.83,
+      "z": 1.87,
+      "orderNumber": 0,
+      "sourceProperties": null
+    },
+    {
+      "id": "dadc46c6-a8a4-41de-ab0d-d754efe12183",
+      "tasks": [
+        {
+          "id": "7e82e2e0-adf5-4e65-a333-4054e0b104dc",
+          "name": "DG_Source_1",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340334Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "1ef546d7-10fa-4d34-be61-db5cb3df45b4",
+          "name": "GA_Source_1",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340961Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_1",
+      "x": -1.6114,
+      "y": -0.2913,
+      "z": 1.0807,
+      "orderNumber": 1,
+      "sourceProperties": null
+    },
+    {
+      "id": "a5820b3f-2746-4123-9886-9582693f9a7c",
+      "tasks": [
+        {
+          "id": "54e3a3f9-590b-4dd2-b202-e86039c1a5d2",
+          "name": "DG_Source_2",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340203Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "82d7fe9b-ad60-4c91-969f-f7be79d9a62d",
+          "name": "GA_Source_2",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340846Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_2",
+      "x": -1.4176,
+      "y": 1.9029,
+      "z": 2.1041,
+      "orderNumber": 2,
+      "sourceProperties": null
+    },
+    {
+      "id": "59aea450-5e19-439c-b588-881d7b9a14a4",
+      "tasks": [
+        {
+          "id": "d7065f77-6f6d-4d88-af50-32ec7643a8e2",
+          "name": "DG_Source_3",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340066Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "766bb762-da5f-4d5d-aadc-65b5571dc80d",
+          "name": "GA_Source_3",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340705Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_3",
+      "x": -1.8484,
+      "y": 2.347,
+      "z": 0.9319,
+      "orderNumber": 3,
+      "sourceProperties": null
+    },
+    {
+      "id": "a3fac9fd-8a81-49b4-a430-1a5bb6e5be4f",
+      "tasks": [
+        {
+          "id": "6b83c395-a3f6-4663-8d9f-deeb769cde51",
+          "name": "DG_Source_4",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934019Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "82ac87b6-f688-4fda-a734-6ae905631fe3",
+          "name": "GA_Source_4",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340833Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_4",
+      "x": -1.4039,
+      "y": 2.4912,
+      "z": 2.2473,
+      "orderNumber": 4,
+      "sourceProperties": null
+    },
+    {
+      "id": "95cd20c7-ab65-47a5-8f62-8fac916545df",
+      "tasks": [
+        {
+          "id": "bd73aa0c-5d0e-41f8-a08a-96552fac9516",
+          "name": "DG_Source_5",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340136Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "9f4b034a-1f4e-4d4b-a02b-ffcc31e85361",
+          "name": "GA_Source_5",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340783Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_5",
+      "x": -1.3591,
+      "y": -0.6652,
+      "z": 1.5369,
+      "orderNumber": 5,
+      "sourceProperties": null
+    },
+    {
+      "id": "57be42b3-1036-4e44-8765-86642720043d",
+      "tasks": [
+        {
+          "id": "f70f484e-08a5-4829-95da-efbc33f5d418",
+          "name": "DG_Source_6",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340034Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "d5b6aa26-53c5-43ca-8877-7ce620a286fb",
+          "name": "GA_Source_6",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340692Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_6",
+      "x": -2.4732,
+      "y": 2.4918,
+      "z": 1.7096,
+      "orderNumber": 6,
+      "sourceProperties": null
+    },
+    {
+      "id": "5bf8c8da-b682-4989-9a98-10781ab3db77",
+      "tasks": [
+        {
+          "id": "5733c72e-8e24-4a18-a92f-903c9644a828",
+          "name": "DG_Source_7",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340079Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "df6de0b8-91f5-49b3-82ff-046406eb786b",
+          "name": "GA_Source_7",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340717Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_7",
+      "x": -0.7573,
+      "y": 2.4491,
+      "z": 1.0907,
+      "orderNumber": 7,
+      "sourceProperties": null
+    },
+    {
+      "id": "0f1ef303-cc4b-4619-b6a2-75c3adf8a972",
+      "tasks": [
+        {
+          "id": "6a747fec-7957-4b06-8b4f-904b63d8b982",
+          "name": "DG_Source_8",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339869Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "9d7c36ab-3aab-4232-b296-da8db13d395b",
+          "name": "GA_Source_8",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340539Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_8",
+      "x": -2.2373,
+      "y": 2.7418,
+      "z": 1.0914,
+      "orderNumber": 8,
+      "sourceProperties": null
+    },
+    {
+      "id": "d0d613b2-dde7-435c-937b-ef4ed1d42278",
+      "tasks": [
+        {
+          "id": "df24ce1b-51cd-4c47-856c-865d6fa19f68",
+          "name": "DG_Source_9",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340305Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "4d584136-f270-4390-971f-c2dc4bb64244",
+          "name": "GA_Source_9",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340936Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_9",
+      "x": -1.9543,
+      "y": 2.1703,
+      "z": 1.6795,
+      "orderNumber": 9,
+      "sourceProperties": null
+    },
+    {
+      "id": "196260d7-00de-41a5-8e8b-3b607f0156a4",
+      "tasks": [
+        {
+          "id": "f64410a2-701e-4506-b311-7d5e8cda40f4",
+          "name": "DG_Source_10",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339884Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "3b073952-f9ea-4b1a-ab63-c439795ef988",
+          "name": "GA_Source_10",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340552Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_10",
+      "x": -2.2007,
+      "y": 0.3861,
+      "z": 2.1525,
+      "orderNumber": 10,
+      "sourceProperties": null
+    },
+    {
+      "id": "97e2c589-9b9c-47b0-a11d-b69ed20426fe",
+      "tasks": [
+        {
+          "id": "6f501c2e-e569-4aaa-969c-a02010f9d8ed",
+          "name": "DG_Source_11",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340149Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "62be2bb5-4cd3-47f7-a02f-9395f9c17122",
+          "name": "GA_Source_11",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340796Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_11",
+      "x": -2.1974,
+      "y": 0.9273,
+      "z": 0.8423,
+      "orderNumber": 11,
+      "sourceProperties": null
+    },
+    {
+      "id": "3d6aa344-2b95-4bc6-8b50-35f39c08fcc7",
+      "tasks": [
+        {
+          "id": "300bbf2a-7c1f-43c4-89fb-ae44c2e1d64d",
+          "name": "DG_Source_12",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339993Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "e6e55d7a-dfd4-457a-9939-ae283f2fccee",
+          "name": "GA_Source_12",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340655Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_12",
+      "x": -1.277,
+      "y": 1.3037,
+      "z": 0.853,
+      "orderNumber": 12,
+      "sourceProperties": null
+    },
+    {
+      "id": "ff05850c-a910-4fbc-9369-e42cb7e28c72",
+      "tasks": [
+        {
+          "id": "340a1e07-114b-44da-bac5-6253eec366c0",
+          "name": "DG_Source_13",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340432Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "319ffcff-91b0-4cfe-9b17-f899359c4ccf",
+          "name": "GA_Source_13",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9341036Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_13",
+      "x": -2.0013,
+      "y": -1.3471,
+      "z": 1.6883,
+      "orderNumber": 13,
+      "sourceProperties": null
+    },
+    {
+      "id": "9dcf1baa-23f9-419b-a289-feeeac99baf5",
+      "tasks": [
+        {
+          "id": "361a1ba1-45d2-4567-92cc-6d6cdc08c38d",
+          "name": "DG_Source_14",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340175Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "5fa2d480-80ba-4c6c-9f4b-461e4e2236ba",
+          "name": "GA_Source_14",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934082Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_14",
+      "x": -1.0185,
+      "y": 2.8367,
+      "z": 1.6988,
+      "orderNumber": 14,
+      "sourceProperties": null
+    },
+    {
+      "id": "b6f4b27d-6081-4da4-b823-8715736c798d",
+      "tasks": [
+        {
+          "id": "4f3a9a86-af57-4316-840c-a8c0a78bd64f",
+          "name": "DG_Source_15",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340278Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "d22d589b-561b-4278-9569-456378a485f6",
+          "name": "GA_Source_15",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340911Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_15",
+      "x": -1.4055,
+      "y": 2.266,
+      "z": 1.4802,
+      "orderNumber": 15,
+      "sourceProperties": null
+    },
+    {
+      "id": "ae7f8e24-efa4-4a4b-9aa2-8ed7161dc263",
+      "tasks": [
+        {
+          "id": "f158ff4f-f5c6-4742-9cdb-f1797d9f1d16",
+          "name": "DG_Source_16",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340264Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "f84fc037-fc75-4767-ad2c-ced6fdc34529",
+          "name": "GA_Source_16",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340882Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_16",
+      "x": -1.0318,
+      "y": -1.5442,
+      "z": 1.6063,
+      "orderNumber": 16,
+      "sourceProperties": null
+    },
+    {
+      "id": "211813e6-76b4-4599-935f-faf6bcd76700",
+      "tasks": [
+        {
+          "id": "915dd852-2118-4320-85f0-7359a2ea5aae",
+          "name": "DG_Source_17",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339919Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "22a64edd-3586-442d-8cfc-2e51979fa786",
+          "name": "GA_Source_17",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340593Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_17",
+      "x": -0.8946,
+      "y": 1.9307,
+      "z": 1.6409,
+      "orderNumber": 17,
+      "sourceProperties": null
+    },
+    {
+      "id": "5ffed039-d6b4-493d-b183-cf0b5f26014d",
+      "tasks": [
+        {
+          "id": "be32f088-5b77-4ae7-a063-5b281efb1198",
+          "name": "DG_Source_18",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340093Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "87942afe-938e-4aaf-b684-e83885088214",
+          "name": "GA_Source_18",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934073Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_18",
+      "x": -2.1504,
+      "y": 0.0558,
+      "z": 1.2614,
+      "orderNumber": 18,
+      "sourceProperties": null
+    },
+    {
+      "id": "e17f2dd3-c479-49f8-9847-000c3797246f",
+      "tasks": [
+        {
+          "id": "af0daf91-1452-4f8a-a756-b55ef9d923d9",
+          "name": "DG_Source_19",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340374Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "4a12a15a-1512-4012-87cf-bc16237bf5a9",
+          "name": "GA_Source_19",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340999Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_19",
+      "x": 1.2146,
+      "y": 0.2528,
+      "z": 0.6349,
+      "orderNumber": 19,
+      "sourceProperties": null
+    },
+    {
+      "id": "3cbcdd41-c018-4c85-882f-33bafe445aef",
+      "tasks": [
+        {
+          "id": "08c827ec-6ee9-4db7-9387-0e0678e6682f",
+          "name": "DG_Source_20",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339979Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "86619954-98e3-4aaa-a89a-29697c29d360",
+          "name": "GA_Source_20",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340643Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_20",
+      "x": -1.5842,
+      "y": -1.185,
+      "z": 0.8217,
+      "orderNumber": 20,
+      "sourceProperties": null
+    },
+    {
+      "id": "2ce6c928-2ebe-4f53-b067-ccf6068e114a",
+      "tasks": [
+        {
+          "id": "e04f4022-7bf4-442a-93dc-48f3fd2701f8",
+          "name": "DG_Source_21",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339935Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "d7405e51-23f9-472f-86e9-b8623e769831",
+          "name": "GA_Source_21",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340605Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_21",
+      "x": 1.9889,
+      "y": 0.2874,
+      "z": 0.6003,
+      "orderNumber": 21,
+      "sourceProperties": null
+    },
+    {
+      "id": "2faa7d0d-277d-4bd1-b5d2-24616e0fd8e7",
+      "tasks": [
+        {
+          "id": "67cd80de-4970-4b5a-97ae-432b139fe052",
+          "name": "DG_Source_22",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339949Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "3158c25e-1304-4e70-9c4d-cb1f768247a3",
+          "name": "GA_Source_22",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340618Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_22",
+      "x": -1.9174,
+      "y": -2.2484,
+      "z": 1.4208,
+      "orderNumber": 22,
+      "sourceProperties": null
+    },
+    {
+      "id": "dae9779f-4bb6-4a0d-b6dd-8b6219170ae6",
+      "tasks": [
+        {
+          "id": "97ced4e1-9fa4-478e-8ce7-f05f88487290",
+          "name": "DG_Source_23",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340346Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "c04f80f3-c66d-4cc6-b8c1-2d37e4322362",
+          "name": "GA_Source_23",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340974Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_23",
+      "x": -0.6023,
+      "y": 0.7309,
+      "z": 1.0703,
+      "orderNumber": 23,
+      "sourceProperties": null
+    },
+    {
+      "id": "a629e4cc-0b67-4d28-b16b-acbaa281843a",
+      "tasks": [
+        {
+          "id": "8db4b9cd-10e4-4e0d-b07d-6c6190f17308",
+          "name": "DG_Source_24",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934022Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "44c459ac-1800-4588-b1b9-9a547e548b03",
+          "name": "GA_Source_24",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340858Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_24",
+      "x": -1.1293,
+      "y": 0.2721,
+      "z": 2.1529,
+      "orderNumber": 24,
+      "sourceProperties": null
+    },
+    {
+      "id": "02f0efde-bdcb-4a0f-bc25-5b5598976c27",
+      "tasks": [
+        {
+          "id": "fdb1f89d-ff9d-4994-b6c6-977a0c6c12cd",
+          "name": "DG_Source_25",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.933981Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "9c0d9ec6-b7fd-41eb-9f23-528341d75420",
+          "name": "GA_Source_25",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340523Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_25",
+      "x": -1.0035,
+      "y": 0.8558,
+      "z": 1.8605,
+      "orderNumber": 25,
+      "sourceProperties": null
+    },
+    {
+      "id": "fee1d074-b664-45ad-a23d-ea0bd380f860",
+      "tasks": [
+        {
+          "id": "435c4afd-4978-4648-868e-1951a203f872",
+          "name": "DG_Source_26",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340417Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "609ede7a-5a10-4058-9985-779435134f17",
+          "name": "GA_Source_26",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9341024Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_26",
+      "x": 2.0445,
+      "y": 0.336,
+      "z": 2.2057,
+      "orderNumber": 26,
+      "sourceProperties": null
+    },
+    {
+      "id": "d2ad8975-1af1-433d-b015-20fbb09dea61",
+      "tasks": [
+        {
+          "id": "1b143634-4a6f-4f69-88d0-207f88b77a6e",
+          "name": "DG_Source_27",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934032Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "2444268e-df5c-465e-8d9c-f65011aa450b",
+          "name": "GA_Source_27",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340948Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_27",
+      "x": -1.8887,
+      "y": -0.6022,
+      "z": 1.3675,
+      "orderNumber": 27,
+      "sourceProperties": null
+    },
+    {
+      "id": "c0061b1b-6e58-4207-b847-f2b806246003",
+      "tasks": [
+        {
+          "id": "f2ae4eef-0e58-4c0f-9422-386aa1066bab",
+          "name": "DG_Source_28",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340291Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "070d9bb4-3f50-408e-bbc4-ed741cba9a88",
+          "name": "GA_Source_28",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340924Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_28",
+      "x": -2.1825,
+      "y": 1.8843,
+      "z": 0.731,
+      "orderNumber": 28,
+      "sourceProperties": null
+    },
+    {
+      "id": "ed2b7f98-68b7-4358-b0d1-7ce34b3b7ce0",
+      "tasks": [
+        {
+          "id": "4e08b039-59e7-49f2-9697-d51f246ee0fb",
+          "name": "DG_Source_29",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340387Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "736536c4-ec1d-4768-82e8-1a2e6b4822fe",
+          "name": "GA_Source_29",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9341011Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_29",
+      "x": -2.019,
+      "y": -2.6314,
+      "z": 2.0951,
+      "orderNumber": 29,
+      "sourceProperties": null
+    },
+    {
+      "id": "7117e830-1ec5-42c2-92ad-8f1c6774f8d4",
+      "tasks": [
+        {
+          "id": "5e49a17f-dce2-4218-bab9-e18f8166cee5",
+          "name": "DG_Source_30",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934012Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "591839d4-e77c-4af1-ac0a-3c6b19ecb2ee",
+          "name": "GA_Source_30",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340771Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_30",
+      "x": -2.5056,
+      "y": 1.3431,
+      "z": 1.2806,
+      "orderNumber": 30,
+      "sourceProperties": null
+    },
+    {
+      "id": "494706c0-18c3-4d05-91aa-46b2b251d7ac",
+      "tasks": [
+        {
+          "id": "e10c9ebd-51a2-468d-b659-2b6f9994e56e",
+          "name": "DG_Source_31",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934002Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "3b674447-db11-4dae-88ba-2400427e0bb2",
+          "name": "GA_Source_31",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934068Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_31",
+      "x": -0.7461,
+      "y": 0.3267,
+      "z": 1.4288,
+      "orderNumber": 31,
+      "sourceProperties": null
+    },
+    {
+      "id": "3e03b696-0bed-4b95-9105-df61f1ac7907",
+      "tasks": [
+        {
+          "id": "e25827f4-e3a4-416c-8141-53a09b236f11",
+          "name": "DG_Source_32",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340007Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "66a03bfd-cd4b-4464-8d23-0cae019c66c0",
+          "name": "GA_Source_32",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340668Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_32",
+      "x": -0.5912,
+      "y": 1.4607,
+      "z": 2.0189,
+      "orderNumber": 32,
+      "sourceProperties": null
+    },
+    {
+      "id": "70de3675-a75c-4b42-b3fc-f3d236bb3a2b",
+      "tasks": [
+        {
+          "id": "19bb47ed-4828-4ab9-99e3-ecee793eece7",
+          "name": "DG_Source_33",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340106Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "6c0459af-65fd-439d-90f0-93517a1fd93c",
+          "name": "GA_Source_33",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340758Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_33",
+      "x": -1.341,
+      "y": -1.1575,
+      "z": 2.1995,
+      "orderNumber": 33,
+      "sourceProperties": null
+    },
+    {
+      "id": "30fc2060-0856-4a68-bf74-34d3d614b9ea",
+      "tasks": [
+        {
+          "id": "44703341-9a8d-412a-8c0b-0423c3ce3d33",
+          "name": "DG_Source_34",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9339963Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "3159cb73-a397-4723-84ec-ac08130ac80f",
+          "name": "GA_Source_34",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340631Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_34",
+      "x": -1.8241,
+      "y": 1.6728,
+      "z": 1.6894,
+      "orderNumber": 34,
+      "sourceProperties": null
+    },
+    {
+      "id": "98c7d036-19cc-4ebd-8674-2199229c7b88",
+      "tasks": [
+        {
+          "id": "a89fa7fa-0251-40e5-aa40-0fcaecfdda27",
+          "name": "DG_Source_35",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340162Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "bdfe4da6-f10e-4919-946f-12df70ba78b5",
+          "name": "GA_Source_35",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340808Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_35",
+      "x": -1.6548,
+      "y": 0.5021,
+      "z": 1.0601,
+      "orderNumber": 35,
+      "sourceProperties": null
+    },
+    {
+      "id": "a8ceb33f-8c68-4ad2-a066-d43ec599a9ee",
+      "tasks": [
+        {
+          "id": "bd80a3a0-8823-421a-9523-26c87df8d790",
+          "name": "DG_Source_36",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340251Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "8f34f00d-de88-4f3d-bafc-cec4a180e12e",
+          "name": "GA_Source_36",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934087Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_36",
+      "x": -2.1391,
+      "y": -1.2335,
+      "z": 2.1783,
+      "orderNumber": 36,
+      "sourceProperties": null
+    },
+    {
+      "id": "db220661-182d-4ffb-b607-28ff75b5b88d",
+      "tasks": [
+        {
+          "id": "7ddf8372-7756-472c-abe3-5760c04eaed0",
+          "name": "DG_Source_37",
+          "taskType": "DG",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.934036Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        },
+        {
+          "id": "6392880e-d066-427e-8caa-42419d86c968",
+          "name": "GA_Source_37",
+          "taskType": "GA",
+          "status": "Queued",
+          "createdAt": "2024-10-19T08:01:27.9340986Z",
+          "startedAt": null,
+          "completedAt": null,
+          "progressPercentage": 0,
+          "statusMessage": null,
+          "taskSubType": "None",
+          "tokensUsed": 0
+        }
+      ],
+      "sourceType": "Omni",
+      "label": "Source_37",
+      "x": -1.7834,
+      "y": 0.1413,
+      "z": 0.6943,
+      "orderNumber": 37,
+      "sourceProperties": null
+    }
+  ],
+  "layerMaterialAssignments": [
+    {
+      "materialId": "446d902f-7d1f-4c9c-8268-ae6cfe310c2a",
+      "materialName": "Fiberboard, solid backing",
+      "layerId": "de10161d-236b-41bf-b939-cb5b39daa51e",
+      "layerName": "ApartmentDoor",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "7ccb5c0b-7da5-4115-b890-f268b93c2934",
+      "materialName": "CR3_plaster_CK",
+      "layerId": "2b91b51a-dd8e-4ba5-8610-b5bad712bf64",
+      "layerName": "ApartmentWall",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "544e42a4-347d-45c2-ac81-e9d8354e25fe",
+      "materialName": "Gypsum board nailed to studs",
+      "layerId": "61f973b6-abe8-41fd-8ba8-108c382012dd",
+      "layerName": "Ceiling",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "6981aefb-9d76-4498-8c9f-83aeb133d827",
+      "materialName": "Wooden flooring",
+      "layerId": "61b20069-4e22-4bd7-a52f-5898de5af05e",
+      "layerName": "ExteriorDoorFrame",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "15f3d0ba-23c0-4ac7-a41a-f499326d25fc",
+      "materialName": "Brick painted",
+      "layerId": "fa97efc0-c0ad-4462-8ee9-76a8cf152797",
+      "layerName": "ExteriorWall",
+      "scatteringCoefficient": [
+        0.2
+      ]
+    },
+    {
+      "materialId": "ecea2943-df2b-4ec0-95df-bfe6fd87359a",
+      "materialName": "Brick unglazed",
+      "layerId": "f90c7235-fd1b-435b-845c-18b35aac81f1",
+      "layerName": "Floor/Bath",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "bc54da5a-2d2d-48a5-8aa4-99504384fbfa",
+      "materialName": "Terrazzo slabs",
+      "layerId": "8913b885-69e1-4748-9f35-8085f0735bb5",
+      "layerName": "Floor/Circulation",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "446d902f-7d1f-4c9c-8268-ae6cfe310c2a",
+      "materialName": "Fiberboard, solid backing",
+      "layerId": "7e85d723-a8ba-425f-aa97-aea34545377e",
+      "layerName": "Floor/Living",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "53e61c19-fc23-4a8e-a300-94e6684a2ca0",
+      "materialName": "Smooth tiles on timber",
+      "layerId": "ccf410f2-0048-474a-a5fa-35e18e48c3a4",
+      "layerName": "Furniture/Basin",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "519bcd31-9f18-4a39-8e09-747d83cae8b8",
+      "materialName": "Heavy carpet on concrete",
+      "layerId": "e8f18338-7ebe-4a1e-a1d2-65bfb0a286d2",
+      "layerName": "Furniture/Carpet",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "416debb6-3862-4f8c-999f-4008f2d8df62",
+      "materialName": "Smooth bricks",
+      "layerId": "53410791-6a72-44a5-93d2-8ec3de161668",
+      "layerName": "Furniture/Ceiling Lamps",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "6fa1d331-c985-44e6-9c68-ae4c7216e88e",
+      "materialName": "Occupied theater seating",
+      "layerId": "4fc62bcd-d021-4b78-98ee-343fdfa3205e",
+      "layerName": "Furniture/Couch",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "5b147b74-0064-47a8-ac32-e689898822c8",
+      "materialName": "CR4_woodPanels",
+      "layerId": "4c4f4c18-9648-41ac-b6c3-ec332ccacd51",
+      "layerName": "Furniture/Dining_Group/Chairs",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "ec59cca6-ed56-4556-99ec-5dee2e71227c",
+      "materialName": "Smooth glazed tiles",
+      "layerId": "57662be5-6b09-48d2-b737-4923154e3a98",
+      "layerName": "Furniture/Dining_Group/Pendants",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "3d18272e-7b49-4baa-a8ad-d105159b2b90",
+      "materialName": "Rough concrete",
+      "layerId": "902b9ab5-5480-4ba8-8806-239cf7fcbc5e",
+      "layerName": "Furniture/Dining_Group/Set",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "49ba7dc7-eea8-4413-8e24-00bb76b1040c",
+      "materialName": "Hollowcore door",
+      "layerId": "7462aab9-17f9-41b0-908d-37cae33522dc",
+      "layerName": "Furniture/Dining_Group/Table",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "53e61c19-fc23-4a8e-a300-94e6684a2ca0",
+      "materialName": "Smooth tiles on timber",
+      "layerId": "ef149dc2-a309-48c0-b397-7b705ddfa8dd",
+      "layerName": "Furniture/Kitchen",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "ec59cca6-ed56-4556-99ec-5dee2e71227c",
+      "materialName": "Smooth glazed tiles",
+      "layerId": "5fa05c3c-bd95-4deb-a3a8-ab2ab3ece84d",
+      "layerName": "Furniture/Kitchen Appliances",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "96697397-6422-478e-9212-7110c037f6d4",
+      "materialName": "Microperforated panel, 6% open, 20 mm 81 kg/m3 absorber",
+      "layerId": "a42543eb-ada4-4293-a326-00447c3bf1fa",
+      "layerName": "Furniture/Shelfs",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "5764f9bc-d88a-4f23-b8bf-3cdeb22c28de",
+      "materialName": "Plastered masonry wall",
+      "layerId": "73038527-277f-414f-a5bb-18ad9f649593",
+      "layerName": "Furniture/Shower",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "53e61c19-fc23-4a8e-a300-94e6684a2ca0",
+      "materialName": "Smooth tiles on timber",
+      "layerId": "b3ad7131-b37c-485d-8140-f6aabf7f7de2",
+      "layerName": "Furniture/Toilet",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "5b147b74-0064-47a8-ac32-e689898822c8",
+      "materialName": "CR4_woodPanels",
+      "layerId": "7f6fdd16-7e51-46e5-8d4e-4ce2e21540da",
+      "layerName": "Furniture/Wardrobes",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "b9f93015-8519-4b7e-898e-cb7efd845f3d",
+      "materialName": "Wood",
+      "layerId": "a2609069-b9a9-418a-8769-19692ee923f9",
+      "layerName": "InteriorDoorPosts",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "53e61c19-fc23-4a8e-a300-94e6684a2ca0",
+      "materialName": "Smooth tiles on timber",
+      "layerId": "b98a147c-1985-4ee0-9919-e08239618c89",
+      "layerName": "InteriorWall/Bath",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "40a2ffba-c266-48dc-bf57-1eeb57b0966a",
+      "materialName": "Concrete block, painted",
+      "layerId": "27d3d3e1-1a39-4c76-9938-76a0409d1277",
+      "layerName": "InteriorWall/Circulation",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "6981aefb-9d76-4498-8c9f-83aeb133d827",
+      "materialName": "Wooden flooring",
+      "layerId": "9ca57def-97d5-4298-bc0b-30439f767b7f",
+      "layerName": "InteriorWall/Living",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "32056dcf-a4a4-4f5c-beb2-156046c9a4dd",
+      "materialName": "Single pane of glass, 3-4 mm",
+      "layerId": "2c63bbfa-c0ec-4ac0-84d8-69be643fcc75",
+      "layerName": "WindowFrames",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "4988337b-df50-40fe-b833-9d39bb88e9d9",
+      "materialName": "Window glass",
+      "layerId": "a43b8383-fa7b-4547-afc5-f3b334399725",
+      "layerName": "Windows",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    }
+  ],
+  "localMeshSizing": [],
+  "simulationSettings": {
+    "speedOfSound": 343,
+    "gaSettings": {
+      "numberOfRays": 5000,
+      "ISMOrder": 4,
+      "IsAirAbsorptionActive": true,
+      "ISMRayCount": 50000,
+      "WriteOutISMRayPaths": false,
+      "useEmbree": false
+    },
+    "dgSettings": {
+      "polynomialOrder": 4,
+      "disableBcOptimizations": null,
+      "dumpRawIrs": null,
+      "skipPostprocessing": null
+    }
+  },
+  "energyDecayThreshold": 60,
+  "resultStatus": {
+    "result_code": 0,
+    "result_code_name": "Ok",
+    "message": null
+  },
+  "mesherSettings": null,
+  "createdAt": "2024-10-19T08:00:08.54939Z",
+  "updatedAt": "2024-10-19T08:01:28.0178505Z",
+  "status": "Completed",
+  "project_id": "599028f6-e654-4cb9-b98c-c6fd35c5e510"
+}

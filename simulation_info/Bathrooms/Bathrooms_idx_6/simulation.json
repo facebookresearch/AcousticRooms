@@ -1,0 +1,497 @@
+{
+  "id": "9d3cf1b6-0445-46b8-9a59-f6961a6721c6",
+  "name": "Bathrooms_idx_17",
+  "description": "",
+  "simulationType": "Hybrid",
+  "impulseLengthSec": 1.0244008716806758,
+  "crossoverFrequency": 710,
+  "modelDefinitionId": "35fc1c0c-94d0-4a5f-a26d-279a6310120f",
+  "originalGeometryLibraryId": null,
+  "gpuAllocationStrategy": "UtilizationOptimized",
+  "onTaskError": "Ignore",
+  "receivers": [
+    {
+      "id": "90d87a59-79c6-42b6-bed0-9bc228fa303e",
+      "receiverType": "Mono",
+      "label": "rec_0",
+      "x": -2.0235,
+      "y": 0.2058,
+      "z": 2.1787,
+      "orderNumber": 0
+    },
+    {
+      "id": "519144c9-dfe3-410f-b451-5279a66f9e1b",
+      "receiverType": "Mono",
+      "label": "rec_1",
+      "x": -2.5584,
+      "y": 0.4324,
+      "z": 0.9245,
+      "orderNumber": 1
+    },
+    {
+      "id": "2e338ad4-4968-4d38-b9e9-d9834fee01e8",
+      "receiverType": "Mono",
+      "label": "rec_2",
+      "x": -1.1332,
+      "y": 1.5273,
+      "z": 1.6682,
+      "orderNumber": 2
+    },
+    {
+      "id": "f0339980-dd00-45b2-9818-7c4d8bbe7b8d",
+      "receiverType": "Mono",
+      "label": "rec_3",
+      "x": -2.0899,
+      "y": 1.3686,
+      "z": 0.5914,
+      "orderNumber": 3
+    },
+    {
+      "id": "ee4b2862-9f1b-4620-ba71-314e9b3392ee",
+      "receiverType": "Mono",
+      "label": "rec_4",
+      "x": -1.4241,
+      "y": 0.4666,
+      "z": 2.095,
+      "orderNumber": 4
+    },
+    {
+      "id": "51a162ec-c061-4dae-b793-32e201a67142",
+      "receiverType": "Mono",
+      "label": "rec_5",
+      "x": -1.9056,
+      "y": 0.028,
+      "z": 0.8988,
+      "orderNumber": 5
+    },
+    {
+      "id": "728dced2-438d-4b36-8120-81b778d37d1f",
+      "receiverType": "Mono",
+      "label": "rec_6",
+      "x": -2.2089,
+      "y": 0.7503,
+      "z": 0.373,
+      "orderNumber": 6
+    },
+    {
+      "id": "6c6f1325-b967-451e-bc65-6b2fe06e57eb",
+      "receiverType": "Mono",
+      "label": "rec_7",
+      "x": -1.4569,
+      "y": -0.0715,
+      "z": 0.6827,
+      "orderNumber": 7
+    },
+    {
+      "id": "64cfad65-f1b2-46ab-a74d-7d7eaaf0fad4",
+      "receiverType": "Mono",
+      "label": "rec_8",
+      "x": -1.924,
+      "y": 0.6201,
+      "z": 1.2577,
+      "orderNumber": 8
+    },
+    {
+      "id": "afc2f3f2-651a-49c8-924e-eab325c0c0f5",
+      "receiverType": "Mono",
+      "label": "rec_9",
+      "x": -1.2565,
+      "y": 1.4046,
+      "z": 0.4038,
+      "orderNumber": 9
+    },
+    {
+      "id": "2279ab66-1eba-4d29-abba-6ec280a4b1e5",
+      "receiverType": "Mono",
+      "label": "rec_10",
+      "x": -1.7272,
+      "y": 1.6769,
+      "z": 2.1163,
+      "orderNumber": 10
+    },
+    {
+      "id": "eb1b27fa-45bb-46da-9142-e18d97aa7f88",
+      "receiverType": "Mono",
+      "label": "rec_11",
+      "x": -1.2305,
+      "y": 0.5689,
+      "z": 1.1307,
+      "orderNumber": 11
+    },
+    {
+      "id": "c3a419ae-0aec-499b-b77f-94a13bef457f",
+      "receiverType": "Mono",
+      "label": "rec_12",
+      "x": -1.1067,
+      "y": 1.5586,
+      "z": 1.0801,
+      "orderNumber": 12
+    },
+    {
+      "id": "de342c39-e26a-4ac3-a0db-ddad4eff191d",
+      "receiverType": "Mono",
+      "label": "rec_13",
+      "x": -2.3347,
+      "y": 2.0327,
+      "z": 1.9377,
+      "orderNumber": 13
+    },
+    {
+      "id": "3bad615f-717d-464e-922a-cd03dc4e4427",
+      "receiverType": "Mono",
+      "label": "rec_14",
+      "x": -2.6327,
+      "y": 1.7818,
+      "z": 1.3942,
+      "orderNumber": 14
+    },
+    {
+      "id": "7095bd14-2e37-48a0-8014-7c6a8dcb7782",
+      "receiverType": "Mono",
+      "label": "rec_15",
+      "x": -2.6017,
+      "y": 0.6871,
+      "z": 2.1602,
+      "orderNumber": 15
+    },
+    {
+      "id": "c13c6fae-5236-4608-8046-a1f084bab9a3",
+      "receiverType": "Mono",
+      "label": "rec_16",
+      "x": -1.1608,
+      "y": 0.0458,
+      "z": 1.8662,
+      "orderNumber": 16
+    },
+    {
+      "id": "05e5f705-d76c-4b59-b44d-e6f1462f835e",
+      "receiverType": "Mono",
+      "label": "rec_17",
+      "x": -2.758,
+      "y": 0.6808,
+      "z": 1.5286,
+      "orderNumber": 17
+    },
+    {
+      "id": "235f9edc-9fee-47de-bae5-11b4dbc587c9",
+      "receiverType": "Mono",
+      "label": "rec_18",
+      "x": -1.507,
+      "y": 1.2794,
+      "z": 1.3118,
+      "orderNumber": 18
+    },
+    {
+      "id": "f220566c-ee5a-4478-9930-4379fa88a210",
+      "receiverType": "Mono",
+      "label": "rec_19",
+      "x": -1.3641,
+      "y": 1.9831,
+      "z": 1.1836,
+      "orderNumber": 19
+    },
+    {
+      "id": "be128e13-44c1-42aa-b781-05a1ad7f7db5",
+      "receiverType": "Mono",
+      "label": "rec_20",
+      "x": -1.7325,
+      "y": 1.9047,
+      "z": 1.5932,
+      "orderNumber": 20
+    },
+    {
+      "id": "14a536b1-1585-433d-bfa7-8a699a0f57c2",
+      "receiverType": "Mono",
+      "label": "rec_21",
+      "x": -2.139,
+      "y": 2.006,
+      "z": 0.4272,
+      "orderNumber": 21
+    }
+  ],
+  "sources": [
+    {
+      "id": "3ec8715d-5c69-42f9-ad48-0dbb21e9b538",
+      "sourceType": "Omni",
+      "label": "Source_0",
+      "x": -1.5019,
+      "y": 0.1092,
+      "z": 1.3227,
+      "orderNumber": 0,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "066cd937-ae2e-4049-ab9d-33263c25cb97",
+      "sourceType": "Omni",
+      "label": "Source_1",
+      "x": -1.5153,
+      "y": 1.196,
+      "z": 0.804,
+      "orderNumber": 1,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "98475cb6-26f0-4907-9c8c-73d9f52d8d05",
+      "sourceType": "Omni",
+      "label": "Source_2",
+      "x": -2.0805,
+      "y": 0.613,
+      "z": 1.8486,
+      "orderNumber": 2,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "60b98e3b-331b-4992-af42-081a45dddccf",
+      "sourceType": "Omni",
+      "label": "Source_3",
+      "x": -2.4329,
+      "y": 0.083,
+      "z": 1.4555,
+      "orderNumber": 3,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "c0a6a945-88e9-4e54-98a8-57210bf89e3d",
+      "sourceType": "Omni",
+      "label": "Source_4",
+      "x": -2.0312,
+      "y": 1.2318,
+      "z": 1.2798,
+      "orderNumber": 4,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "7bdda3bb-d377-4fab-963e-34c6fba4bbc5",
+      "sourceType": "Omni",
+      "label": "Source_5",
+      "x": -2.3068,
+      "y": 1.4902,
+      "z": 1.8863,
+      "orderNumber": 5,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "18266ac6-1377-4a78-a3b3-6a154f92aa8d",
+      "sourceType": "Omni",
+      "label": "Source_6",
+      "x": -1.7892,
+      "y": 1.6245,
+      "z": 1.0418,
+      "orderNumber": 6,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "0c7f81f7-f36f-42e1-b6b0-0bbcbb3c557f",
+      "sourceType": "Omni",
+      "label": "Source_7",
+      "x": -1.8861,
+      "y": 0.0821,
+      "z": 1.6722,
+      "orderNumber": 7,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "07a76950-98e0-4d4d-8b98-8cd569010de8",
+      "sourceType": "Omni",
+      "label": "Source_8",
+      "x": -1.5933,
+      "y": 0.7691,
+      "z": 1.6094,
+      "orderNumber": 8,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "dc48b775-219e-4c8d-9bfd-41509f9d9e3d",
+      "sourceType": "Omni",
+      "label": "Source_9",
+      "x": -1.4623,
+      "y": 1.1646,
+      "z": 1.9302,
+      "orderNumber": 9,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "a4b78793-13f4-4140-8bab-c80032f7ed30",
+      "sourceType": "Omni",
+      "label": "Source_10",
+      "x": -1.6862,
+      "y": 1.7444,
+      "z": 0.5651,
+      "orderNumber": 10,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "d40fabb1-bbe5-4298-957d-b77a22fedd2b",
+      "sourceType": "Omni",
+      "label": "Source_11",
+      "x": -1.8152,
+      "y": 0.7561,
+      "z": 0.778,
+      "orderNumber": 11,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "327c3ec6-0603-444b-8175-ddd13b9431da",
+      "sourceType": "Omni",
+      "label": "Source_12",
+      "x": -2.4355,
+      "y": 1.093,
+      "z": 1.5595,
+      "orderNumber": 12,
+      "tasks": [],
+      "sourceProperties": null
+    }
+  ],
+  "layerMaterialAssignments": [
+    {
+      "materialId": "ec59cca6-ed56-4556-99ec-5dee2e71227c",
+      "materialName": "Smooth glazed tiles",
+      "layerId": "d55f0871-723d-430a-8fef-91e4c161d752",
+      "layerName": "Furniture/Toilet",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "49ba7dc7-eea8-4413-8e24-00bb76b1040c",
+      "materialName": "Hollowcore door",
+      "layerId": "97979b20-8403-4f0d-a661-c19e4076b688",
+      "layerName": "InteriorDoors",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "0c04d8a1-c55b-4241-a289-ff10c8cabb8d",
+      "materialName": "13 mm Gypsum/Plaster board on frame, 100 mm mineral wool behind",
+      "layerId": "c01878c3-66b1-49a6-a664-5c7da99bdb39",
+      "layerName": "InteriorWall",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "11c2f937-f344-4f29-a5ec-1a3ea319f73a",
+      "materialName": "Double 2-3 mm glass, >30 mm air gap",
+      "layerId": "2a8078cd-731a-4ae7-85ca-ce735d3da09e",
+      "layerName": "WindowFrames",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "f8465eb7-a82d-4047-a972-c6960b99e1b3",
+      "materialName": "Double 2-3 mm glass, 10 mm air gap",
+      "layerId": "5ce011aa-2d42-436f-b190-96d66ac96ddb",
+      "layerName": "Windows",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "0c04d8a1-c55b-4241-a289-ff10c8cabb8d",
+      "materialName": "13 mm Gypsum/Plaster board on frame, 100 mm mineral wool behind",
+      "layerId": "f2426e8e-e30a-4ec3-acef-126e842dfcd8",
+      "layerName": "Ceiling",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "5764f9bc-d88a-4f23-b8bf-3cdeb22c28de",
+      "materialName": "Plastered masonry wall",
+      "layerId": "458090df-7785-4ff6-bcd7-748cbc0f75b4",
+      "layerName": "ExteriorWall",
+      "scatteringCoefficient": [
+        0.2
+      ]
+    },
+    {
+      "materialId": "646c01d4-304a-4bbb-aad3-99b6b576e51e",
+      "materialName": "Wool pile with underlay",
+      "layerId": "897009e1-ca98-4596-8436-f5e5b3424e0b",
+      "layerName": "Floor",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "40a2ffba-c266-48dc-bf57-1eeb57b0966a",
+      "materialName": "Concrete block, painted",
+      "layerId": "ed078e94-39cb-4e25-95fd-548c0a81818e",
+      "layerName": "Furniture/Basin",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "15f3d0ba-23c0-4ac7-a41a-f499326d25fc",
+      "materialName": "Brick painted",
+      "layerId": "fa7c34a3-f1dc-4132-bc5a-df2afa165e38",
+      "layerName": "Furniture/Bath tub",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "53e61c19-fc23-4a8e-a300-94e6684a2ca0",
+      "materialName": "Smooth tiles on timber",
+      "layerId": "856a0581-66e1-4b06-8fd4-fe88fdb3b01c",
+      "layerName": "Furniture/Paintings",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "f1da9ca9-ff92-447d-b22f-30a6e7120330",
+      "materialName": "Wood, 50 mm thick",
+      "layerId": "969a677a-9dd0-4a95-ae62-c5b877805749",
+      "layerName": "InteriorDoorPosts",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    }
+  ],
+  "localMeshSizing": [],
+  "simulationSettings": {
+    "speedOfSound": 343,
+    "gaSettings": {
+      "numberOfRays": 5000,
+      "ISMOrder": 4,
+      "IsAirAbsorptionActive": true,
+      "ISMRayCount": 50000,
+      "WriteOutISMRayPaths": false,
+      "useEmbree": false,
+      "method": 0
+    },
+    "dgSettings": {
+      "polynomialOrder": 4,
+      "disableBcOptimizations": null,
+      "dumpRawIrs": null,
+      "skipPostprocessing": null
+    }
+  },
+  "energyDecayThreshold": 60,
+  "resultStatus": {
+    "result_code": 0,
+    "result_code_name": "Ok",
+    "message": null
+  },
+  "mesherSettings": null,
+  "createdAt": "2024-10-24T07:22:58.435019Z",
+  "updatedAt": "2024-10-24T13:12:24.069379Z",
+  "status": "Completed",
+  "project_id": "599028f6-e654-4cb9-b98c-c6fd35c5e510"
+}

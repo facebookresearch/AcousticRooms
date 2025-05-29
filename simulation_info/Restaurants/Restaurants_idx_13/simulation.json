@@ -1,0 +1,1174 @@
+{
+  "id": "6d71249e-edcd-4e69-ad32-81b32d519d7e",
+  "name": "Restaurants_idx_13",
+  "description": "",
+  "simulationType": "Hybrid",
+  "impulseLengthSec": 3.0856754498533716,
+  "crossoverFrequency": 710,
+  "modelDefinitionId": "76142618-0581-4b04-a614-ae57d482a63d",
+  "originalGeometryLibraryId": null,
+  "gpuAllocationStrategy": "UtilizationOptimized",
+  "onTaskError": "Ignore",
+  "receivers": [
+    {
+      "id": "486ba236-6afe-4879-9b0b-2e99b40f08ef",
+      "receiverType": "Mono",
+      "label": "rec_0",
+      "x": -1.1169,
+      "y": 0.0214,
+      "z": 2.8478,
+      "orderNumber": 0
+    },
+    {
+      "id": "997f0c0b-18f3-41c3-963c-8ad75cb3a908",
+      "receiverType": "Mono",
+      "label": "rec_1",
+      "x": 0.1064,
+      "y": -0.5108,
+      "z": 1.0667,
+      "orderNumber": 1
+    },
+    {
+      "id": "3d241812-4755-4f48-a7e6-2c6aaad29c5e",
+      "receiverType": "Mono",
+      "label": "rec_2",
+      "x": -0.4583,
+      "y": 1.3788,
+      "z": 1.7621,
+      "orderNumber": 2
+    },
+    {
+      "id": "ed0efdcf-4751-4a52-8646-4bd101b32740",
+      "receiverType": "Mono",
+      "label": "rec_3",
+      "x": 3.2146,
+      "y": -0.9723,
+      "z": 3,
+      "orderNumber": 3
+    },
+    {
+      "id": "e9a8abc8-1151-4e45-808a-19a99dc8d6d3",
+      "receiverType": "Mono",
+      "label": "rec_4",
+      "x": -1.8872,
+      "y": -0.7708,
+      "z": 4.0977,
+      "orderNumber": 4
+    },
+    {
+      "id": "489ebe47-e523-457c-a50d-25027afd931e",
+      "receiverType": "Mono",
+      "label": "rec_5",
+      "x": -2.0864,
+      "y": 0.0974,
+      "z": 1.1017,
+      "orderNumber": 5
+    },
+    {
+      "id": "12fd58a0-a411-47ee-8632-0de1a2790fe5",
+      "receiverType": "Mono",
+      "label": "rec_6",
+      "x": -2.5627,
+      "y": -0.5479,
+      "z": 1.1713,
+      "orderNumber": 6
+    },
+    {
+      "id": "9a5a5be2-52b5-477f-bd19-a1e47e73f2fc",
+      "receiverType": "Mono",
+      "label": "rec_7",
+      "x": 1.0168,
+      "y": 1.5387,
+      "z": 1.5288,
+      "orderNumber": 7
+    },
+    {
+      "id": "714175d5-c706-47e3-b7f8-43c7d95121df",
+      "receiverType": "Mono",
+      "label": "rec_8",
+      "x": -1.9718,
+      "y": 0.906,
+      "z": 0.3003,
+      "orderNumber": 8
+    },
+    {
+      "id": "5d5ed595-695a-4d9a-91fe-7b0293217a94",
+      "receiverType": "Mono",
+      "label": "rec_9",
+      "x": -3.4531,
+      "y": 0.7666,
+      "z": 1.4061,
+      "orderNumber": 9
+    },
+    {
+      "id": "937c080f-57c2-452d-be90-641d78f10a9c",
+      "receiverType": "Mono",
+      "label": "rec_10",
+      "x": -0.2755,
+      "y": -0.7782,
+      "z": 1.7972,
+      "orderNumber": 10
+    },
+    {
+      "id": "1c84ea70-7c93-4e22-b5c0-32ecd5cb983f",
+      "receiverType": "Mono",
+      "label": "rec_11",
+      "x": 1.9612,
+      "y": 1.5047,
+      "z": 2.5359,
+      "orderNumber": 11
+    },
+    {
+      "id": "4890ce13-575a-45de-87f9-ae6ae182baa9",
+      "receiverType": "Mono",
+      "label": "rec_12",
+      "x": 3.4819,
+      "y": 0.3459,
+      "z": 0.9262,
+      "orderNumber": 12
+    },
+    {
+      "id": "8f1696d0-c02b-4dd9-88be-a8b669dd4c9a",
+      "receiverType": "Mono",
+      "label": "rec_13",
+      "x": 2.0622,
+      "y": 0.7886,
+      "z": 0.6269,
+      "orderNumber": 13
+    },
+    {
+      "id": "ea0b0e8c-b096-41da-a211-5ad26fd73620",
+      "receiverType": "Mono",
+      "label": "rec_14",
+      "x": 0.8496,
+      "y": -1.1337,
+      "z": 3.8735,
+      "orderNumber": 14
+    },
+    {
+      "id": "246e23a2-9134-4227-a822-6095303e2ac4",
+      "receiverType": "Mono",
+      "label": "rec_15",
+      "x": 3.1095,
+      "y": -0.5019,
+      "z": 1.2368,
+      "orderNumber": 15
+    },
+    {
+      "id": "8a53b43d-b15f-448b-8119-3fce92c89914",
+      "receiverType": "Mono",
+      "label": "rec_16",
+      "x": 0.118,
+      "y": 0.8725,
+      "z": 3.2105,
+      "orderNumber": 16
+    },
+    {
+      "id": "e3075dfc-692b-4a2d-a2e5-40af9c15364b",
+      "receiverType": "Mono",
+      "label": "rec_17",
+      "x": -3.1958,
+      "y": 1.2003,
+      "z": 2.0175,
+      "orderNumber": 17
+    },
+    {
+      "id": "03405836-72c0-46da-8fc5-86c7231be27a",
+      "receiverType": "Mono",
+      "label": "rec_18",
+      "x": 3.4974,
+      "y": -1.2975,
+      "z": 2.5607,
+      "orderNumber": 18
+    },
+    {
+      "id": "250307f5-b915-4fb3-8ae7-6636c6dfb7be",
+      "receiverType": "Mono",
+      "label": "rec_19",
+      "x": 1.9095,
+      "y": -0.1911,
+      "z": 1.5154,
+      "orderNumber": 19
+    },
+    {
+      "id": "b27a6e0b-6d04-4854-8c93-ebaf26b79a38",
+      "receiverType": "Mono",
+      "label": "rec_20",
+      "x": -3.1634,
+      "y": -1.6983,
+      "z": 0.8377,
+      "orderNumber": 20
+    },
+    {
+      "id": "75b131fb-1376-4fc4-933f-ad2141855077",
+      "receiverType": "Mono",
+      "label": "rec_21",
+      "x": -1.5259,
+      "y": 0.3518,
+      "z": 2.101,
+      "orderNumber": 21
+    },
+    {
+      "id": "e5e2c0dc-9316-49c5-9215-a8afa976c255",
+      "receiverType": "Mono",
+      "label": "rec_22",
+      "x": -1.3753,
+      "y": -1.0993,
+      "z": 0.5356,
+      "orderNumber": 22
+    },
+    {
+      "id": "4faafd30-2a92-45c2-a369-a33876328452",
+      "receiverType": "Mono",
+      "label": "rec_23",
+      "x": 2.4274,
+      "y": -1.6864,
+      "z": 2.1087,
+      "orderNumber": 23
+    },
+    {
+      "id": "f96d8c52-8686-4068-94b3-25e61d591ce6",
+      "receiverType": "Mono",
+      "label": "rec_24",
+      "x": -1.6643,
+      "y": -0.841,
+      "z": 2.0389,
+      "orderNumber": 24
+    },
+    {
+      "id": "6227bf34-d8d9-49a7-98f9-65a57509476f",
+      "receiverType": "Mono",
+      "label": "rec_25",
+      "x": -1.4899,
+      "y": -0.5902,
+      "z": 2.9467,
+      "orderNumber": 25
+    },
+    {
+      "id": "2bed3a61-4bea-4cfb-bfb7-53f2f8090ab9",
+      "receiverType": "Mono",
+      "label": "rec_26",
+      "x": 0.8549,
+      "y": 1.1235,
+      "z": 3.7194,
+      "orderNumber": 26
+    },
+    {
+      "id": "ce6f439d-e1aa-40fc-b552-c7c489b2e9ef",
+      "receiverType": "Mono",
+      "label": "rec_27",
+      "x": 3.1858,
+      "y": 0.0267,
+      "z": 3.6847,
+      "orderNumber": 27
+    },
+    {
+      "id": "5d55441a-4200-47ce-99e3-9fdd496c668a",
+      "receiverType": "Mono",
+      "label": "rec_28",
+      "x": 2.1238,
+      "y": 0.8097,
+      "z": 1.8684,
+      "orderNumber": 28
+    },
+    {
+      "id": "f48c09dc-40bb-4e90-b0c9-495b861c2d83",
+      "receiverType": "Mono",
+      "label": "rec_29",
+      "x": -2.5541,
+      "y": 1.2105,
+      "z": 1.2917,
+      "orderNumber": 29
+    },
+    {
+      "id": "2475336b-3d8b-4a1e-a0f3-f225becd4a8b",
+      "receiverType": "Mono",
+      "label": "rec_30",
+      "x": 0.4745,
+      "y": -0.2901,
+      "z": 3.7955,
+      "orderNumber": 30
+    },
+    {
+      "id": "37fdb66a-2975-4df9-accd-7008c7296bb0",
+      "receiverType": "Mono",
+      "label": "rec_31",
+      "x": 1.8536,
+      "y": -1.5122,
+      "z": 1.6341,
+      "orderNumber": 31
+    },
+    {
+      "id": "7c84cf40-887b-4722-ad5a-a055fe230ad8",
+      "receiverType": "Mono",
+      "label": "rec_32",
+      "x": -1.0893,
+      "y": -1.6306,
+      "z": 0.5172,
+      "orderNumber": 32
+    },
+    {
+      "id": "f80ad92d-590a-411e-9f1e-a82b38b09509",
+      "receiverType": "Mono",
+      "label": "rec_33",
+      "x": -2.9688,
+      "y": 0.4749,
+      "z": 0.3044,
+      "orderNumber": 33
+    },
+    {
+      "id": "95eeb0eb-4e4e-4764-93ed-e01d17019b7e",
+      "receiverType": "Mono",
+      "label": "rec_34",
+      "x": 0.3231,
+      "y": -0.3499,
+      "z": 2.9286,
+      "orderNumber": 34
+    },
+    {
+      "id": "24bdd355-3cee-41e5-be0a-e505a3be2a3d",
+      "receiverType": "Mono",
+      "label": "rec_35",
+      "x": 0.732,
+      "y": 1.0379,
+      "z": 1.505,
+      "orderNumber": 35
+    },
+    {
+      "id": "20d7199a-2bcb-41b1-b0d1-e9fbc9195e57",
+      "receiverType": "Mono",
+      "label": "rec_36",
+      "x": -2.6915,
+      "y": -0.1264,
+      "z": 2.5264,
+      "orderNumber": 36
+    },
+    {
+      "id": "db358e89-55bc-4b75-bfa5-24eaa14b5089",
+      "receiverType": "Mono",
+      "label": "rec_37",
+      "x": 1.5591,
+      "y": -0.7036,
+      "z": 2.324,
+      "orderNumber": 37
+    },
+    {
+      "id": "55c1099b-e4a0-4232-adfe-08966f8261a6",
+      "receiverType": "Mono",
+      "label": "rec_38",
+      "x": -1.4019,
+      "y": -1.4405,
+      "z": 1.4778,
+      "orderNumber": 38
+    },
+    {
+      "id": "2ad39194-9fd3-4dbe-9de6-655a0d9c3e9e",
+      "receiverType": "Mono",
+      "label": "rec_39",
+      "x": -2.3635,
+      "y": -1.1179,
+      "z": 2.5705,
+      "orderNumber": 39
+    },
+    {
+      "id": "f89e3535-e005-404b-9008-f6c9892bac77",
+      "receiverType": "Mono",
+      "label": "rec_40",
+      "x": 0.924,
+      "y": -0.7393,
+      "z": 1.2089,
+      "orderNumber": 40
+    },
+    {
+      "id": "f51cf691-95e0-458f-b914-8fdd64abac89",
+      "receiverType": "Mono",
+      "label": "rec_41",
+      "x": -1.0076,
+      "y": 1.6563,
+      "z": 1.8929,
+      "orderNumber": 41
+    },
+    {
+      "id": "9a37a8b5-972f-46aa-971f-f3d309d2680f",
+      "receiverType": "Mono",
+      "label": "rec_42",
+      "x": -2.7554,
+      "y": -1.4916,
+      "z": 2.8085,
+      "orderNumber": 42
+    },
+    {
+      "id": "4a2f328b-5cdc-40c6-a312-6aa767558bb0",
+      "receiverType": "Mono",
+      "label": "rec_43",
+      "x": 2.5516,
+      "y": 0.8143,
+      "z": 0.7729,
+      "orderNumber": 43
+    },
+    {
+      "id": "99fbffdb-64c6-4aca-a970-a57790db3793",
+      "receiverType": "Mono",
+      "label": "rec_44",
+      "x": 1.4493,
+      "y": -1.3415,
+      "z": 2.1814,
+      "orderNumber": 44
+    },
+    {
+      "id": "eb68f3eb-d854-440f-85ad-4ba53bb337d5",
+      "receiverType": "Mono",
+      "label": "rec_45",
+      "x": -0.9393,
+      "y": -0.4047,
+      "z": 2.3872,
+      "orderNumber": 45
+    },
+    {
+      "id": "f214014e-9064-4a7e-b095-15ae9e05da3d",
+      "receiverType": "Mono",
+      "label": "rec_46",
+      "x": 0.7973,
+      "y": 0.4784,
+      "z": 0.7102,
+      "orderNumber": 46
+    },
+    {
+      "id": "f0bae42c-6f2d-4ea6-a66b-55a62eab623c",
+      "receiverType": "Mono",
+      "label": "rec_47",
+      "x": 0.8669,
+      "y": -0.2045,
+      "z": 2.913,
+      "orderNumber": 47
+    },
+    {
+      "id": "fe383aa2-8785-45f5-a02e-d4f132d9afef",
+      "receiverType": "Mono",
+      "label": "rec_48",
+      "x": 0.972,
+      "y": -0.0671,
+      "z": 3.7464,
+      "orderNumber": 48
+    },
+    {
+      "id": "9ecbdd2e-eb66-4948-b2c8-23ed33abae4f",
+      "receiverType": "Mono",
+      "label": "rec_49",
+      "x": 2.6757,
+      "y": -1.5096,
+      "z": 2.6414,
+      "orderNumber": 49
+    }
+  ],
+  "sources": [
+    {
+      "id": "94842aeb-db00-43f8-a7ea-82bbe522a8e5",
+      "sourceType": "Omni",
+      "label": "Source_0",
+      "x": -2.6037,
+      "y": -0.0254,
+      "z": 1.9527,
+      "orderNumber": 0,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "eabe8163-9362-4bf5-9fd7-e4441b693637",
+      "sourceType": "Omni",
+      "label": "Source_1",
+      "x": -2.364,
+      "y": -1.2503,
+      "z": 2.0517,
+      "orderNumber": 1,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "4927f114-8311-4663-a40c-6d4d363391d4",
+      "sourceType": "Omni",
+      "label": "Source_2",
+      "x": 0.7766,
+      "y": 0.9735,
+      "z": 3.0369,
+      "orderNumber": 2,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "af594b19-201e-4c3d-bed7-0e7043c656d3",
+      "sourceType": "Omni",
+      "label": "Source_3",
+      "x": 2.7763,
+      "y": -1.2846,
+      "z": 1.2063,
+      "orderNumber": 3,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "eaf3266e-a0cb-45d5-b6f9-fdae974f72da",
+      "sourceType": "Omni",
+      "label": "Source_4",
+      "x": 1.2311,
+      "y": 0.1806,
+      "z": 2.1755,
+      "orderNumber": 4,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "235e12a0-ba80-4dbf-a7b2-006e0b977c74",
+      "sourceType": "Omni",
+      "label": "Source_5",
+      "x": -2.0157,
+      "y": 0.1176,
+      "z": 3.1765,
+      "orderNumber": 5,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "c3d488d7-4461-4a31-bb07-563c285e58f3",
+      "sourceType": "Omni",
+      "label": "Source_6",
+      "x": -0.1948,
+      "y": -0.267,
+      "z": 2.6178,
+      "orderNumber": 6,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "3a50f70b-979d-4c99-bd3b-4861856a3bf1",
+      "sourceType": "Omni",
+      "label": "Source_7",
+      "x": -0.5297,
+      "y": 0.3569,
+      "z": 1.3817,
+      "orderNumber": 7,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "934d47a9-78d3-4fd0-8390-895c3d8b4e9b",
+      "sourceType": "Omni",
+      "label": "Source_8",
+      "x": 2.461,
+      "y": 1.3864,
+      "z": 3.2506,
+      "orderNumber": 8,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "b851650b-a14c-43e9-9b7e-f7714fd8a916",
+      "sourceType": "Omni",
+      "label": "Source_9",
+      "x": 2.7463,
+      "y": 0.076,
+      "z": 3.1594,
+      "orderNumber": 9,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "531913b4-65ad-4f68-9a0c-291dc5d78267",
+      "sourceType": "Omni",
+      "label": "Source_10",
+      "x": -0.3843,
+      "y": 0.5938,
+      "z": 2.3517,
+      "orderNumber": 10,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "77d3aed9-b94d-4cfe-b480-1eaf5d366c4f",
+      "sourceType": "Omni",
+      "label": "Source_11",
+      "x": 0.1242,
+      "y": 0.5049,
+      "z": 0.924,
+      "orderNumber": 11,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "793ab5a1-12dd-4f6d-88d3-8c6c0db0e86b",
+      "sourceType": "Omni",
+      "label": "Source_12",
+      "x": 3.0267,
+      "y": 1.1859,
+      "z": 1.5063,
+      "orderNumber": 12,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "e80a3a15-f3ef-4c75-bf29-e90978872041",
+      "sourceType": "Omni",
+      "label": "Source_13",
+      "x": 3.2745,
+      "y": -1.4797,
+      "z": 1.6867,
+      "orderNumber": 13,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "d3ec2b05-4f48-441f-9269-8a2f00b8c9d4",
+      "sourceType": "Omni",
+      "label": "Source_14",
+      "x": 0.5222,
+      "y": 0.4175,
+      "z": 2.6236,
+      "orderNumber": 14,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "e0897453-899a-446b-92f1-b491cb52d2e4",
+      "sourceType": "Omni",
+      "label": "Source_15",
+      "x": 0.3158,
+      "y": 0.6431,
+      "z": 1.9164,
+      "orderNumber": 15,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "465b610c-3330-49b8-aca0-ab6b137d94a2",
+      "sourceType": "Omni",
+      "label": "Source_16",
+      "x": -0.9467,
+      "y": -0.3947,
+      "z": 1.3745,
+      "orderNumber": 16,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "c39f4f49-208c-479e-80ab-04149fced483",
+      "sourceType": "Omni",
+      "label": "Source_17",
+      "x": -1.6219,
+      "y": -0.0688,
+      "z": 0.7756,
+      "orderNumber": 17,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "0fd489b2-adae-4ace-8bc9-b1c424773477",
+      "sourceType": "Omni",
+      "label": "Source_18",
+      "x": 0.1513,
+      "y": -0.0791,
+      "z": 1.9656,
+      "orderNumber": 18,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "8dc0eacf-aad9-4504-b62d-fb4e3aeccff0",
+      "sourceType": "Omni",
+      "label": "Source_19",
+      "x": -3.2596,
+      "y": 0.5363,
+      "z": 2.4758,
+      "orderNumber": 19,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "890cc08b-578b-4471-9fcf-07aa6fcd91d8",
+      "sourceType": "Omni",
+      "label": "Source_20",
+      "x": -2.0299,
+      "y": -0.0477,
+      "z": 2.4878,
+      "orderNumber": 20,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "44dd5f01-f5c9-4cfd-b5ce-5589c52a420b",
+      "sourceType": "Omni",
+      "label": "Source_21",
+      "x": -0.7137,
+      "y": -0.9641,
+      "z": 2.7835,
+      "orderNumber": 21,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "be09d812-de5c-402f-b66e-d5511612192f",
+      "sourceType": "Omni",
+      "label": "Source_22",
+      "x": 3.0581,
+      "y": 0.9877,
+      "z": 0.5918,
+      "orderNumber": 22,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "cd95c608-d9fc-459e-819c-2e398ab3d9c6",
+      "sourceType": "Omni",
+      "label": "Source_23",
+      "x": -1.4158,
+      "y": -1.3867,
+      "z": 2.5473,
+      "orderNumber": 23,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "430669c1-077a-4526-9837-6fb5f4dd5b80",
+      "sourceType": "Omni",
+      "label": "Source_24",
+      "x": 0.3172,
+      "y": 1.3003,
+      "z": 2.6254,
+      "orderNumber": 24,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "9fa1ce42-2f4a-4cd7-b8ce-ca4ca425d017",
+      "sourceType": "Omni",
+      "label": "Source_25",
+      "x": 2.9959,
+      "y": 0.0704,
+      "z": 2.2663,
+      "orderNumber": 25,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "62a4da93-3654-4c04-af69-113154388de2",
+      "sourceType": "Omni",
+      "label": "Source_26",
+      "x": 2.6209,
+      "y": 0.7344,
+      "z": 3.5018,
+      "orderNumber": 26,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "a7232173-e4e1-48b3-8c67-f0f7ef8d86a3",
+      "sourceType": "Omni",
+      "label": "Source_27",
+      "x": -2.0063,
+      "y": -1.3383,
+      "z": 0.984,
+      "orderNumber": 27,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "f9586aa0-e814-4832-8506-e2f82d903d81",
+      "sourceType": "Omni",
+      "label": "Source_28",
+      "x": 1.9205,
+      "y": -1.2442,
+      "z": 2.7791,
+      "orderNumber": 28,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "9a1121ee-d55b-4ac1-b945-12ced1f92fb3",
+      "sourceType": "Omni",
+      "label": "Source_29",
+      "x": -1.8561,
+      "y": -1.2907,
+      "z": 3.9087,
+      "orderNumber": 29,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "1a64f1ef-23c1-40ae-8c31-41609b14542e",
+      "sourceType": "Omni",
+      "label": "Source_30",
+      "x": 2.3818,
+      "y": -0.235,
+      "z": 2.3022,
+      "orderNumber": 30,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "e288a494-3666-4416-9b8b-fffdf45c3c96",
+      "sourceType": "Omni",
+      "label": "Source_31",
+      "x": -3.161,
+      "y": -1.1835,
+      "z": 2.0397,
+      "orderNumber": 31,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "60934107-8d42-49ce-b87c-9b1fdd42fb8d",
+      "sourceType": "Omni",
+      "label": "Source_32",
+      "x": -2.3499,
+      "y": 1.1366,
+      "z": 2.8917,
+      "orderNumber": 32,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "6ae38a13-312a-4ec3-a29f-ed3beac98abb",
+      "sourceType": "Omni",
+      "label": "Source_33",
+      "x": 1.4734,
+      "y": 0.9969,
+      "z": 1.7933,
+      "orderNumber": 33,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "b5ccfd9b-9abe-40fd-bbd2-f983894f7307",
+      "sourceType": "Omni",
+      "label": "Source_34",
+      "x": -2.9972,
+      "y": -1.431,
+      "z": 3.3576,
+      "orderNumber": 34,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "4f6982f0-1185-467e-bf64-2f23c2bd7988",
+      "sourceType": "Omni",
+      "label": "Source_35",
+      "x": -3.0612,
+      "y": -0.3381,
+      "z": 3.4939,
+      "orderNumber": 35,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "aee794ad-95d6-4d5b-88d7-41699ada9a6f",
+      "sourceType": "Omni",
+      "label": "Source_36",
+      "x": 3.065,
+      "y": 0.6864,
+      "z": 3.2094,
+      "orderNumber": 36,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "c399a701-0e31-43fc-ae43-6f95766f810d",
+      "sourceType": "Omni",
+      "label": "Source_37",
+      "x": 1.7243,
+      "y": 0.6164,
+      "z": 1.1668,
+      "orderNumber": 37,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "60d0ef43-71f2-4d54-b3a7-e2b6454a2d7a",
+      "sourceType": "Omni",
+      "label": "Source_38",
+      "x": -0.7684,
+      "y": 0.1246,
+      "z": 2.276,
+      "orderNumber": 38,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "e6460ede-e15f-45ed-a3fb-86c41d4fff3b",
+      "sourceType": "Omni",
+      "label": "Source_39",
+      "x": -1.7055,
+      "y": 1.0292,
+      "z": 3.1104,
+      "orderNumber": 39,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "48f73be6-7894-4746-81c9-4b0fd8611c43",
+      "sourceType": "Omni",
+      "label": "Source_40",
+      "x": -2.3416,
+      "y": -1.4561,
+      "z": 1.3694,
+      "orderNumber": 40,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "879bd1d7-e02c-4f15-a100-cbd1433302b7",
+      "sourceType": "Omni",
+      "label": "Source_41",
+      "x": 2.5073,
+      "y": 0.5385,
+      "z": 2.0982,
+      "orderNumber": 41,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "bd80d9a3-2863-48a8-8198-b89bd8a306ec",
+      "sourceType": "Omni",
+      "label": "Source_42",
+      "x": 1.7784,
+      "y": 0.2075,
+      "z": 3.4315,
+      "orderNumber": 42,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "a756ec58-a5f6-441b-b87d-c6728eda5fde",
+      "sourceType": "Omni",
+      "label": "Source_43",
+      "x": 3.1756,
+      "y": 1.3602,
+      "z": 3.3086,
+      "orderNumber": 43,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "10e2bf6d-f896-40bc-a4df-8dd9873a1b7c",
+      "sourceType": "Omni",
+      "label": "Source_44",
+      "x": 2.5725,
+      "y": 1.0726,
+      "z": 2.7399,
+      "orderNumber": 44,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "df436344-77e4-4117-ab94-9ff3c24821e4",
+      "sourceType": "Omni",
+      "label": "Source_45",
+      "x": 3.1754,
+      "y": 0.506,
+      "z": 1.7591,
+      "orderNumber": 45,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "d3035712-5178-4fb2-b6c1-75129a5116ec",
+      "sourceType": "Omni",
+      "label": "Source_46",
+      "x": 2.4877,
+      "y": -0.3637,
+      "z": 3.4886,
+      "orderNumber": 46,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "d6f269b1-8354-487a-a98f-48182b55b85f",
+      "sourceType": "Omni",
+      "label": "Source_47",
+      "x": 1.3067,
+      "y": 0.3577,
+      "z": 3.3173,
+      "orderNumber": 47,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "dbd63626-10f0-445d-9075-232064334c1e",
+      "sourceType": "Omni",
+      "label": "Source_48",
+      "x": 2.1715,
+      "y": -0.1675,
+      "z": 2.7765,
+      "orderNumber": 48,
+      "tasks": [],
+      "sourceProperties": null
+    },
+    {
+      "id": "cf8cf4af-9823-41b1-a258-6483412b98b9",
+      "sourceType": "Omni",
+      "label": "Source_49",
+      "x": -1.8509,
+      "y": 0.1758,
+      "z": 1.5621,
+      "orderNumber": 49,
+      "tasks": [],
+      "sourceProperties": null
+    }
+  ],
+  "layerMaterialAssignments": [
+    {
+      "materialId": "40a2ffba-c266-48dc-bf57-1eeb57b0966a",
+      "materialName": "Concrete block, painted",
+      "layerId": "bffd01c4-469e-425a-b56a-40a4efb6091c",
+      "layerName": "Interior/Lighting Fixtures",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "f1da9ca9-ff92-447d-b22f-30a6e7120330",
+      "materialName": "Wood, 50 mm thick",
+      "layerId": "3289a1c5-451c-4d80-a777-2b672c870c9d",
+      "layerName": "Interior/Beams",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "b74a5b88-52a5-4b20-970b-ca82ea9c924d",
+      "materialName": "Acoustic door",
+      "layerId": "03d88c40-0103-4698-9eb2-9bc5d0707498",
+      "layerName": "Interior/Chairs",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "b9f93015-8519-4b7e-898e-cb7efd845f3d",
+      "materialName": "Wood",
+      "layerId": "0fe1a3fe-b023-4c69-bdd0-6fc89c0b7a64",
+      "layerName": "Interior/Tables",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "5764f9bc-d88a-4f23-b8bf-3cdeb22c28de",
+      "materialName": "Plastered masonry wall",
+      "layerId": "21739d4f-1dc7-4e79-99f0-4bfa9cf0d61a",
+      "layerName": "Shell/Ceiling/Flat",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "73765df4-cbcd-4965-a728-d16a9ecf70cf",
+      "materialName": "Chipboard backed by mineral wool",
+      "layerId": "b024960a-be69-42a2-9599-98e7964e3cca",
+      "layerName": "Shell/Door Frames",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "f1da9ca9-ff92-447d-b22f-30a6e7120330",
+      "materialName": "Wood, 50 mm thick",
+      "layerId": "10c8d053-d765-4966-ad8f-663849fb32bc",
+      "layerName": "Shell/Doors",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "e86bcb8b-8cdb-465b-a323-c89970fd72ed",
+      "materialName": "Carpet tiles",
+      "layerId": "80899d7e-0f9b-4691-b1ae-a7e342b32c8f",
+      "layerName": "Shell/Floor",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "15f3d0ba-23c0-4ac7-a41a-f499326d25fc",
+      "materialName": "Brick painted",
+      "layerId": "34382426-9248-4563-a74b-eb8137c41264",
+      "layerName": "Shell/Inner Walls/#1",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "ec59cca6-ed56-4556-99ec-5dee2e71227c",
+      "materialName": "Smooth glazed tiles",
+      "layerId": "7c6bee6b-6aa3-431c-b976-6e9c2c98d576",
+      "layerName": "Shell/Inner Walls/#2",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "ec59cca6-ed56-4556-99ec-5dee2e71227c",
+      "materialName": "Smooth glazed tiles",
+      "layerId": "086ca164-b209-42da-91c2-e8ddac15f43d",
+      "layerName": "Shell/Inner Walls/#3",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "a8abbe80-d955-461a-8e84-257ff31d47c3",
+      "materialName": "Smooth painted concrete",
+      "layerId": "cab9eb27-9b80-48ed-933d-be54351a3802",
+      "layerName": "Shell/Outer Walls/#1",
+      "scatteringCoefficient": [
+        0.15
+      ]
+    },
+    {
+      "materialId": "86f12cca-adac-43f7-ab66-6fa74625434d",
+      "materialName": "Single pane of glass, >4 mm",
+      "layerId": "4ea8ad30-2016-4400-82e5-4b051ccd7e3e",
+      "layerName": "Shell/Window Frames",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    },
+    {
+      "materialId": "11c2f937-f344-4f29-a5ec-1a3ea319f73a",
+      "materialName": "Double 2-3 mm glass, >30 mm air gap",
+      "layerId": "e4678e9d-43e2-43f1-bc7e-af6ff08facb6",
+      "layerName": "Shell/Windows",
+      "scatteringCoefficient": [
+        0.1
+      ]
+    }
+  ],
+  "localMeshSizing": [],
+  "simulationSettings": {
+    "speedOfSound": 343,
+    "gaSettings": {
+      "numberOfRays": 5000,
+      "ISMOrder": 4,
+      "IsAirAbsorptionActive": true,
+      "ISMRayCount": 50000,
+      "WriteOutISMRayPaths": false,
+      "useEmbree": false,
+      "method": 0
+    },
+    "dgSettings": {
+      "polynomialOrder": 4,
+      "disableBcOptimizations": null,
+      "dumpRawIrs": null,
+      "skipPostprocessing": null
+    }
+  },
+  "energyDecayThreshold": 60,
+  "resultStatus": {
+    "result_code": 0,
+    "result_code_name": "Ok",
+    "message": null
+  },
+  "mesherSettings": null,
+  "createdAt": "2024-10-19T22:15:29.250732Z",
+  "updatedAt": "2024-10-22T17:37:31.278136Z",
+  "status": "Completed",
+  "project_id": "599028f6-e654-4cb9-b98c-c6fd35c5e510"
+}
