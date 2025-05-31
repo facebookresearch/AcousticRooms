@@ -1,7 +1,6 @@
 # AcousticRooms Dataset
 
-### From CVPR 2025 Paper: *Hearing Anywhere in Any Environment*
-
+### From CVPR 2025 Paper: [*Hearing Anywhere in Any Environment*](https://arxiv.org/abs/2504.10746)
 **Authors:**  
 Xiulong Liu¹, Anurag Kumar², Paul Calamia², Sebastia V. Amengual², Calvin Murdock²,  
 Ishwarya Ananthabhotla², Philip Robinson², Eli Shlizerman¹, Vamsi Krishna Ithapu², Ruohan Gao³  
@@ -12,6 +11,7 @@ Ishwarya Ananthabhotla², Philip Robinson², Eli Shlizerman¹, Vamsi Krishna Ith
 ## 🏠 Overview
 
 **AcousticRooms** is a large-scale synthetic room impulse response (RIR) dataset designed for cross-room RIR prediction tasks. It includes over **300,000 single-channel RIRs** simulated across **260 rooms** spanning **10 categories**, such as apartment, auditorium, office, and cafe. Each room features high-quality 3D spatial geometry and randomized material properties drawn from a diverse library of **332 acoustic materials** across **11 categories**.
+![Simulation Setup](sim_setup.png)
 
 ---
 
@@ -66,6 +66,15 @@ This repository includes the following files and folders:
 | `room_mesh_obj_format/` | 3D mesh geometries of all rooms in `.obj` format |
 | `material_library/` | Acoustic material definitions including absorption/reflection coefficients |
 | `simulation_info/` | Configuration files and simulation parameters for selected rooms |
+
+---
+
+## 📄 License
+
+**AcousticRooms** is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
+You are free to share and adapt the dataset, even for commercial use, as long as proper attribution is given.
+
+See the [LICENSE](./LICENSE) file for full terms.
 
 ---
 
