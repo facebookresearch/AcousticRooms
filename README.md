@@ -60,9 +60,9 @@ This repository includes the following files and folders:
 
 | File/Folder | Description |
 |-------------|-------------|
-| `single_channel_ir.zip` | 300K normalized, single-channel RIR waveforms (16kHz). Naming: `sourceID_receiverID.wav` |
+| `single_channel_ir.zip` | 300K normalized, single-channel RIR waveforms (with 22.05kHz sampling rate) across all 10 room categories. Naming: `S{sourceID}_R{receiverID}_hybrid_IR.wav`. |
 | `metadata.zip` | JSON metadata for each RIR pair, including `[x, y, z]` positions of source and receiver |
-| `depth_map.zip` | Panoramic (equirectangular) depth maps captured at each receiver location |
+| `depth_map.zip` | Panoramic (equirectangular) depth maps captured at each receiver location, each depth map is named as `{receiverID}.npy` |
 | `room_mesh_obj_format/` | 3D mesh geometries of all rooms in `.obj` format |
 | `material_library/` | Acoustic material definitions including absorption/reflection coefficients |
 | `simulation_info/` | Configuration files and simulation parameters for selected rooms |
