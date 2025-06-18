@@ -69,6 +69,11 @@ This repository includes the following files and folders:
 
 ---
 
+## Usage for RIR prediction task
+**AcousticRooms** is used as a benchmark for cross-room RIR prediction task in the paper. If you are interested in this task, please check out the third-party implementation of the xRIR framework proposed in the CVPR paper at https://github.com/DragonLiu1995/xRIR_code.
+
+---
+
 ## 📄 License
 
 **AcousticRooms** is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
