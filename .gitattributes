@@ -6,3 +6,4 @@ simulation_info/ filter=lfs diff=lfs merge=lfs -text
 material_library/ filter=lfs diff=lfs merge=lfs -text
 raw_dense_simulation/treble_dense_simulation.zip filter=lfs diff=lfs merge=lfs -text
 raw_dense_simulation/treble_dense_simulation_depth.zip filter=lfs diff=lfs merge=lfs -text
+raw_dense_simulation/** filter=lfs diff=lfs merge=lfs -text
